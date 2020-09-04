@@ -1,0 +1,143 @@
+[[artworks]]
+alt = "Nikola Tesla"
+description = "5-min caricature."
+date = "7-8-2020"
+image = "drawings/tesla.PNG"
+mediums = "Digital"
+thumb = "drawings/tesla-thumb.PNG"
+title = "Nikola Tesla"
+
+[[artworks]]
+alt = "Jack Ma"
+description = "5-min caricature."
+date = "7-5-2020"
+image = "drawings/jackma.png"
+mediums = "Digital"
+thumb = "drawings/jackma-thumb.png"
+title = "Jack Ma"
+
+[[artworks]]
+alt = "Mom"
+description = "5-min caricature."
+date = "7-2-2020"
+image = "drawings/mom.png"
+mediums = "Digital"
+thumb = "drawings/mom-thumb.PNG"
+title = "Mom"
+
+[[artworks]]
+alt = "Satya"
+description = "5-min caricature."
+date = "7-2-2020"
+image = "drawings/satyanadella.PNG"
+mediums = "Digital"
+thumb = "drawings/satyanadella-thumb.PNG"
+title = "Satya Nadella"
+
+[[artworks]]
+alt = "AOC"
+description = "5-min caricature."
+date = "6-30-2020"
+image = "drawings/aoc.PNG"
+mediums = "Digital"
+thumb = "drawings/aoc-thumb.PNG"
+title = "Alexandria Ocasio-Cortez"
+
+[[artworks]]
+alt = "Taylor Swift"
+description = "5-min caricature."
+date = "6-30-2020"
+image = "drawings/taylorswift.PNG"
+mediums = "Digital"
+thumb = "drawings/taylorswift-thumb.PNG"
+title = "Taylor Swift"
+
+[[artworks]]
+alt = "Dad"
+description = "5-min caricature."
+date = "6-21-2020"
+image = "drawings/dad.PNG"
+mediums = "Digital"
+thumb = "drawings/dad-thumb.PNG"
+title = "Happy Father's Day"
+
+[[artworks]]
+alt = "Brie Larson"
+description = "5-min caricature."
+date = "6-19-2020"
+image = "drawings/brielarson.PNG"
+mediums = "Digital"
+thumb = "drawings/brielarson-thumb.PNG"
+title = "Brie Larson"
+
+[[artworks]]
+alt = "WFH 3/3"
+description = "Working from home."
+date = "5-1-2020"
+image = "drawings/wfh3.PNG"
+mediums = "Digital"
+thumb = "drawings/wfh3-thumb.PNG"
+title = "WFH 3/3"
+
+[[artworks]]
+alt = "WFH 2/3"
+description = "Working from home."
+date = "4-22-2020"
+image = "drawings/wfh2.PNG"
+mediums = "Digital"
+thumb = "drawings/wfh2-thumb.PNG"
+title = "WFH 2/3"
+
+[[artworks]]
+alt = "WFH 1/3"
+description = "Working from home."
+date = "4-20-2020"
+image = "drawings/wfh1.PNG"
+mediums = "Digital"
+thumb = "drawings/wfh1-thumb.PNG"
+title = "WFH 1/3"
+
+[[artworks]]
+alt = "AR Box"
+description = "Not just sitting on a box."
+date = "4-15-2020"
+image = "drawings/arbox.PNG"
+mediums = "Digital"
+thumb = "drawings/arbox-thumb.PNG"
+title = "Augmented Reality"
+
+[[artworks]]
+alt = "VR Monster"
+description = "Motion blur."
+date = "4-10-2020"
+image = "drawings/vrmonster.PNG"
+mediums = "Digital"
+thumb = "drawings/vrmonster-thumb.PNG"
+title = "VR Monster"
+
+[[artworks]]
+alt = "2020"
+description = "Starting 2020 by revisiting JT's 20/20 Experience."
+date = "01-01-2020"
+image = "drawings/2020.PNG"
+mediums = "Digital"
+thumb = "drawings/2020-thumb.PNG"
+title = "20/20 Vision"
+
+[[artworks]]
+alt = "Mixed Reality"
+description = "Perspective blur."
+date = "8-01-2019"
+image = "drawings/kfrankc-mrw.PNG"
+mediums = "Digital"
+thumb = "drawings/kfrankc-mrw-thumb.PNG"
+title = "Mixed Reality"
+
+[[artworks]]
+alt = "Franos"
+description = "Frank becomes Franos."
+date = "5-3-2018"
+image = "drawings/franos.PNG"
+mediums = "Digital"
+thumb = "drawings/franos-thumb.PNG"
+title = "Franos"

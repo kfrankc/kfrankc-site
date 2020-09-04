@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="image-container" aria-label="Drag Me! 🖱️" data-balloon-pos="up">
+    <canvas class="canvas" width="500" height="500" id="canvas"></canvas>
+    <!-- <div class="loading-screen" id="loading">
+        <div class="la-ball-triangle-path la-dark la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
+</div>
+  <!-- about -->
+  <section class="section pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+{{ end }}

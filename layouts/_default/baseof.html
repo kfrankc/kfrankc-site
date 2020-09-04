@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    {{ if eq .Type "home" }}
+        {{- partial "home.html" . -}} 
+    {{ end }}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{ if eq .Type "home" }}
+            {{- partial "footer.html" . -}}
+        {{ end }}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/js/grid.js?v=0.3.4"></script>
+        <script>
+            $(function() {
+                Grid.init();
+            });
+        </script>
+    </body>
+</html>
