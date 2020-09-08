@@ -6,7 +6,7 @@ authorImage : ""
 type: "home"
 ---
 
-Hi there 👋, I'm Frank. I am interested in how essential industries embrace digital transformation and technology adoption. In the past, I was a Researcher at [VCLA](http://vcla.stat.ucla.edu/), Organizer at [LA Hacks](https://lahacks.com/), [Resident Assistant](https://reslife.ucla.edu/employment/ra), and Student Lecturer on [Cybersecurity](https://kfrankc.com/cs88s/).
+Hi there 👋 I'm Frank. I am interested in how essential industries embrace digital transformation and technology adoption. In the past, I was a Researcher at [VCLA](http://vcla.stat.ucla.edu/), Organizer at [LA Hacks](https://lahacks.com/), [Resident Assistant](https://reslife.ucla.edu/employment/ra), and Student Lecturer on [Cybersecurity](https://kfrankc.com/cs88s/).
 
 ---
 
