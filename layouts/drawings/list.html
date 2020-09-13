@@ -10,7 +10,7 @@
 					data-dimensions="{{ .date }}"
 					data-description="{{ .description }}">
 					<img class="d-none d-sm-block" src="../{{ .thumb }}" alt="{{ .alt }}">
-					<img class="d-block d-sm-none" src="../{{ .image }}" alt="{{ .alt }}">
+					<img class="d-block d-sm-none lazyload" data-src="../{{ .image }}" alt="{{ .alt }}">
 				</a>
 			</li>
 		{{ end }}
