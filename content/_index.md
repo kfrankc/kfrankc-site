@@ -18,7 +18,7 @@ Hi there 👋 I'm Frank. I am interested in how essential industries embrace dig
 
 ---
 
-Jun 2020: [Dynamics 365 Connected Store](https://dynamics.microsoft.com/en-us/ai/connected-store/) is in Public Preview! [Blog Post](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/07/22/introducing-new-functionalities-to-dynamics-365-connected-store/) | [TechCrunch](https://techcrunch.com/2020/07/21/microsoft-introduces-customer-voice-a-real-time-customer-feedback-tool/) | [ZDNet](https://www.zdnet.com/article/microsoft-releases-preview-of-its-dynamics-365-connected-store-and-fraud-protection-services/) | [VentureBeat](https://venturebeat.com/2020/07/21/microsoft-launches-new-ai-powered-dynamics-365-retail-and-fraud-services/)
+Jul 2020: [Dynamics 365 Connected Store](https://dynamics.microsoft.com/en-us/ai/connected-store/) is in Public Preview! [Blog Post](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/07/22/introducing-new-functionalities-to-dynamics-365-connected-store/) | [TechCrunch](https://techcrunch.com/2020/07/21/microsoft-introduces-customer-voice-a-real-time-customer-feedback-tool/) | [ZDNet](https://www.zdnet.com/article/microsoft-releases-preview-of-its-dynamics-365-connected-store-and-fraud-protection-services/) | [VentureBeat](https://venturebeat.com/2020/07/21/microsoft-launches-new-ai-powered-dynamics-365-retail-and-fraud-services/)
 
 May 2020: Received my [Masters in Data Science](https://www.washington.edu/datasciencemasters/) from UW
 
