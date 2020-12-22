@@ -1,4 +1,22 @@
 [[artworks]]
+alt = "Evermore"
+description = "Exploring a more simple style for Taylor Swift's Evermore ✒️"
+date = "Dec 2020"
+image = "drawings/taylorswift-evermore.png"
+mediums = "Digital"
+thumb = "drawings/taylorswift-evermore-thumb.png"
+title = "Taylor Swift"
+
+[[artworks]]
+alt = "Ruth Bader Ginsburg"
+description = "5-min caricature ✍️"
+date = "Sep 2020"
+image = "drawings/rbg.PNG"
+mediums = "Digital"
+thumb = "drawings/rbg-thumb.PNG"
+title = "Ruth Bader Ginsburg"
+
+[[artworks]]
 alt = "T'Challa"
 description = "5-min caricature ✍️"
 date = "Aug 2020"
