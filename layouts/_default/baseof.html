@@ -12,8 +12,11 @@
         {{ if eq .Type "home" }}
             {{- partial "footer.html" . -}}
         {{ end }}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="/js/grid.js?v=0.3.4"></script>
+        {{ if eq .Type "drawings" }}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script src="/js/imagesloaded.pkgd.min.js"></script>
+            <script src="/js/grid.js?v=0.3.4"></script>
+        {{ end }}
         <script>
             $(function() {
                 Grid.init();
