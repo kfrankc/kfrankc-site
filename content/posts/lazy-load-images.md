@@ -1,7 +1,7 @@
 ---
 title: 'The easiest way to lazy-load images'
 date: 2020-09-14
-summary: "Load speed is everything"
+summary: ""
 type: post
 markup: goldmark
 ---

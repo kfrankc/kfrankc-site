@@ -2,7 +2,7 @@
 title: "Enabling MathJax"
 date: 2018-10-09
 math: true
-summary: "✖️➕➖➗"
+summary: ""
 type: "post"
 markup: "goldmark"
 ---

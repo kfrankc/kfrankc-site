@@ -1,7 +1,7 @@
 ---
 title: 'Thank you Jon'
 date: 2015-08-07
-summary: "... for teaching me how to smell BS"
+summary: ""
 type: post
 markup: goldmark
 ---

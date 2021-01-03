@@ -1,7 +1,7 @@
 ---
 title: "UCLA Engineering Commencement Speech"
 date: 2017-07-18
-summary: "Sharing my thoughts about being an engineer to the class of 2017"
+summary: ""
 type: "post"
 ---
 

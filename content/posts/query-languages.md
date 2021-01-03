@@ -1,7 +1,7 @@
 ---
 title: 'Relational Algebra & SQL'
 date: 2019-02-09
-summary: "Review of mathematical concepts in database query languages"
+summary: ""
 type: "post"
 math: true
 markup: "goldmark"

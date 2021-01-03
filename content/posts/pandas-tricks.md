@@ -1,7 +1,7 @@
 ---
 title: 'Pandas Tips & Tricks'
 date: 2019-12-29
-summary: "A growing list!"
+summary: ""
 type: post
 markup: goldmark
 ---

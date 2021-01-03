@@ -1,7 +1,7 @@
 ---
 title: "Lukas Graham & 汪峰: Artistic Parallels"
 date: 2018-03-13
-summary: "Comparing two songs in two languages from 2 countries"
+summary: ""
 type: "post"
 markup: "goldmark"
 ---
