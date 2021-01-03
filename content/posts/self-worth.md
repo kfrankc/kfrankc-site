@@ -1,7 +1,7 @@
 ---
 title: '3 Qualities of Self-Worth (人贵有三品)'
 date: 2016-12-22
-summary: "A framework for measuring ourselves"
+summary: ""
 type: post
 markup: goldmark
 ---

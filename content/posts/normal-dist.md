@@ -2,7 +2,7 @@
 title: "Deriving the Normal Distribution"
 date: 2018-10-19
 math: true
-summary: "AKA Gaussian distribution"
+summary: ""
 type: "post"
 markup: "goldmark"
 ---

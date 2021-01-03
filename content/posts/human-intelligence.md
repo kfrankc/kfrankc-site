@@ -1,7 +1,7 @@
 ---
 title: "Beauty of Human Learning & Intelligence"
 date: 2018-01-08
-summary: "We still have much to learn about our own journey in learning"
+summary: ""
 type: "post"
 markup: "goldmark"
 ---

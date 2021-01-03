@@ -1,7 +1,7 @@
 ---
 title: 'Looking for life advice? Look to the Ancient Chinese'
 date: 2017-06-27
-summary: "Life philosophy in 24 characters"
+summary: ""
 type: post
 markup: goldmark
 ---

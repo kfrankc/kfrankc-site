@@ -1,7 +1,7 @@
 ---
 title: 'Why we should all learn Chinese'
 date: 2017-11-24
-summary: "There are benefits to learning several languages"
+summary: ""
 type: post
 markup: goldmark
 ---

@@ -2,7 +2,7 @@
 title: "Why is Kurtosis of Standard Normal Distribution 3?"
 date: 2018-10-29
 math: true
-summary: "More about normal distribution properties"
+summary: ""
 type: "post"
 markup: "goldmark"
 ---
