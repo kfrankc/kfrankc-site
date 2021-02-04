@@ -15,10 +15,10 @@
   <section class="section pt-5">
     <div class="container">
       <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 mx-auto">
+        <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
           {{ .Content }}
         </div>
-        <div class="col-xs-8 col-sm-8 col-md-8 mx-auto">
+        <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
           {{ range where .Pages "Section" "writing" }} 
             {{ range .Pages }}
               <a href="{{.Permalink}}">{{ .Title }}&nbsp;&nbsp;&nbsp;<span style="font-size: 12px; color: #A0A0A0">{{ .PublishDate.Format "Jan 2006" }}</span></a>
