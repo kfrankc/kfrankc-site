@@ -1,5 +1,5 @@
 ---
-title: 'Relational Algebra & SQL'
+title: 'Relational algebra & SQL'
 date: 2019-02-09
 summary: ""
 type: "post"

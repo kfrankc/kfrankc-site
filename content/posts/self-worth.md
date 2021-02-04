@@ -1,5 +1,5 @@
 ---
-title: '3 Qualities of Self-Worth (人贵有三品)'
+title: '3 qualities of self-worth'
 date: 2016-12-22
 summary: ""
 type: post

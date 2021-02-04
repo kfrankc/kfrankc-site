@@ -1,5 +1,5 @@
 ---
-title: 'The easiest way to lazy-load images'
+title: 'Lazy-load images'
 date: 2020-09-14
 summary: ""
 type: post

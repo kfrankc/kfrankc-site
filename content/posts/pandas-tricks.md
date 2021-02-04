@@ -1,5 +1,5 @@
 ---
-title: 'Pandas Tips & Tricks'
+title: 'Pandas tips & tricks'
 date: 2019-12-29
 summary: ""
 type: post

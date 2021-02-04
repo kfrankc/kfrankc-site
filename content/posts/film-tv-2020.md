@@ -1,5 +1,5 @@
 ---
-title: 'Favorite Films & TV Shows watched in Quarantine'
+title: 'Films & TV in quarantine'
 date: 2020-12-31
 summary: ""
 type: post

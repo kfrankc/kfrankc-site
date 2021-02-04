@@ -1,5 +1,5 @@
 ---
-title: "Lessons from 1 Year at Microsoft"
+title: "1 Year @ Microsoft"
 date: 2018-12-28
 summary: ""
 type: "post"

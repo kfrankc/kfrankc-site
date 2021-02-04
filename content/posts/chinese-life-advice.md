@@ -1,5 +1,5 @@
 ---
-title: 'Looking for life advice? Look to the Ancient Chinese'
+title: '左宗棠'
 date: 2017-06-27
 summary: ""
 type: post

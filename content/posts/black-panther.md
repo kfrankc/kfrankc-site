@@ -1,5 +1,5 @@
 ---
-title: 'What makes Black Panther a great film'
+title: 'Black Panther'
 date: 2018-02-20
 summary: ""
 type: post

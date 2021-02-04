@@ -1,5 +1,5 @@
 ---
-title: "Deriving the Normal Distribution"
+title: "Deriving the normal distribution"
 date: 2018-10-19
 math: true
 summary: ""

@@ -1,5 +1,5 @@
 ---
-title: "Lukas Graham & 汪峰: Artistic Parallels"
+title: "Lukas Graham & 汪峰"
 date: 2018-03-13
 summary: ""
 type: "post"

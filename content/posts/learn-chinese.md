@@ -1,5 +1,5 @@
 ---
-title: 'Why we should all learn Chinese'
+title: 'We should all learn Chinese'
 date: 2017-11-24
 summary: ""
 type: post

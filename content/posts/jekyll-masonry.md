@@ -1,5 +1,5 @@
 ---
-title: 'Building a Responsive Portfolio using Jekyll and Masonry'
+title: 'Responsive Jekyll portfolio'
 date: 2019-03-07
 summary: ""
 type: post

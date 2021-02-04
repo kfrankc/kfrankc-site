@@ -1,5 +1,5 @@
 ---
-title: "Why is Kurtosis of Standard Normal Distribution 3?"
+title: "Kurtosis of standard normal"
 date: 2018-10-29
 math: true
 summary: ""
