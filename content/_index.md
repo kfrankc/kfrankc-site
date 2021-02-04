@@ -15,9 +15,13 @@ Before this, I worked at [JPL](https://www.jpl.nasa.gov/), [VCLA](https://vcla.s
 
 I had a wonderful time studying data science at UW, and computer science at UCLA. In school, I was a [resident assistant](https://reslife.ucla.edu/employment/ra), [LA Hacks](https://lahacks.com/) organizer, and student lecturer on [cybersecurity](https://kfrankc.com/cs88s/).
 
-kfrankc [at] uw edu 📧
+In my spare time I like to [draw](https://instagram.com/bykfrankc), [read](https://goodreads.com/kfrankc), and (occasionally) [take photos](https://500px.com/p/kfrankc)
 
-[Insta](https://instagram.com/bykfrankc) | [Github](https://github.com/kfrankc) | [LinkedIn](https://www.linkedin.com/in/kfrankc) | [Keybase](https://keybase.io/kfrankc) | [Goodreads](https://goodreads.com/kfrankc) | [500px](https://500px.com/p/kfrankc)
+kfrankc [at] uw edu
+
+[LinkedIn](https://www.linkedin.com/in/kfrankc) | [Github](https://github.com/kfrankc) | [Keybase](https://keybase.io/kfrankc)
+
+---
 
 [Resume](/files/kfrankc_RESUME.pdf) 📃
 

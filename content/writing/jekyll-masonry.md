@@ -20,7 +20,7 @@ The features I wanted to implement included:
 
 I ultimately ended up using a combination of [Masonry](https://masonry.desandro.com/) and [imagesloaded](https://imagesloaded.desandro.com/) to achieve this. Below are the steps I took:
 
-#### Set up Minimal Mistakes
+**Set up Minimal Mistakes**
 
 In Jekyll lingo, a portfolio page is simply a form of [collections](https://jekyllrb.com/docs/collections/), which serves to group related contents together. In the MM theme, `.md` file entries in a folder with the syntax `_<folder_name>` can be aggregated into a single view. 
 
@@ -70,7 +70,7 @@ I have completed my first feature to manage my entries using collections in Jeky
 
 Next, I used Masonry and imagesLoaded to finish my second feature.
 
-#### Configure Masonry and imagesLoaded
+**Configure Masonry and imagesLoaded**
 
 One fallback of using purely MM `grid` layout is that the resulting tiles are not responsive to changes in orientation/screen size. I needed an external library, and Masonry was the clear choice.
 
@@ -124,11 +124,9 @@ $(window).on('load', function() {
 
 I trigger this code on page load, and utilizes the imagesLoaded function to ensure I only run Masonry when all the images are loaded. There appears to be some image shifting as a result of Masonry on the images, so I made the `grid__item` class initially invisible, and only run the `grid.fadIn()` function within imagesLoaded.
 
-#### Implement responsive tiles
+**Implement responsive tiles**
 
 Lastly, I will make my Masonry layout responsive to various screen sizes and orientation. 
-
-**Using Breakpoint**
 
 MM utilizes a tool called [Breakpoint](http://breakpoint-sass.com/) for organized media queries. At a high level, Breakpoint allows you to quickly define variables to hold the media query. This enables you to generate variables that account for different devices and orientations.
 
@@ -179,6 +177,6 @@ I can use these variables in my `grid__items` class as follows:
   }
 ```
 
-## Results
+**Results**
 
 See [v2.1 release](https://github.com/kfrankc/kfrankc.github.io/releases) on Github.
