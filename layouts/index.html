@@ -1,5 +1,6 @@
 {{ define "main" }}
-<div class="image-container" aria-label="Drag Me! 🖱️" data-balloon-pos="up">
+<div class="image-container">
+  <div class="canvas" width="500" height="500" aria-label="Drag Me! 🖱️" data-balloon-pos="down">
     <canvas class="canvas" width="500" height="500" id="canvas"></canvas>
     <!-- <div class="loading-screen" id="loading">
         <div class="la-ball-triangle-path la-dark la-2x">
@@ -8,16 +9,26 @@
             <div></div>
         </div>
     </div> -->
+  </div>
 </div>
   <!-- about -->
   <section class="section pt-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
           {{ .Content }}
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
+          {{ range where .Pages "Section" "writing" }} 
+            {{ range .Pages }}
+              <a href="{{.Permalink}}">{{ .Title }}&nbsp;&nbsp;&nbsp;<span style="font-size: 12px; color: #A0A0A0">{{ .PublishDate.Format "Jan 2006" }}</span></a>
+              <br>
+            {{ end }}
+          {{ end }}
         </div>
       </div>
     </div>
   </section>
+  <br>
   <!-- /about -->
 {{ end }}

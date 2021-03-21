@@ -1,5 +1,5 @@
 ---
-title: "Beauty of Human Learning & Intelligence"
+title: "Human learning & intelligence"
 date: 2018-01-08
 summary: ""
 type: "post"

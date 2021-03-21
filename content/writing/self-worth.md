@@ -1,5 +1,5 @@
 ---
-title: '3 Qualities of Self-Worth (人贵有三品)'
+title: '3 qualities of self-worth'
 date: 2016-12-22
 summary: ""
 type: post
@@ -8,7 +8,7 @@ markup: goldmark
 
 A couple weeks ago, my dad sent me a link to an excellent [blog entry](https://m.sohu.com/n/474235216/?wscrid=95360_5) written in Mandarin Chinese. I have always loved the Chinese language for its elegant brevity, and this entry was no exception. In just a few lines of characters, it succinctly summarized 3 qualities of self-worth. I wanted to share this with my friends in the United States, so I decided to translate the entry into English:
 
-#### 3 Qualities of Self-Worth: Perseverance, Humility, Confidence
+**3 Qualities of Self-Worth: Perseverance, Humility, Confidence**
 
 **Perseverance (Ability to 'Hold your anger')** - We will travel near and far in this world; We will go through the highs and lows of life; Sometimes we win; Sometimes we lose. In this life full of unpredictability, we must learn to persevere and endure. If we cannot do that, we might lose our sense of logic and reasoning, and do things that we feel is right in the moment, but we may regret in the future. Examples of non-perseverance include: blaming the world or other people for our own actions that made us sad, constantly cursing, and blaming everything on “bad luck”. Perseverance is a true indicator of maturity, a paragon of the right moral reasoning, and a sign of open mindedness.
 

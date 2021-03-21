@@ -1,5 +1,5 @@
 ---
-title: 'What makes Black Panther a great film'
+title: 'Black Panther'
 date: 2018-02-20
 summary: ""
 type: post
@@ -8,7 +8,7 @@ markup: goldmark
 
 A great film consists not only of a great cast, but also a great director, screenwriter, composer, cinematographer, and costume designer.
 
-[Black Panther Fever is REAL](https://www.latimes.com/entertainment/movies/la-et-mn-black-panther-reactions-20180218-story.html), and here are some of the amazing people who made this film great.
+[Black Panther is recieving critical acclaim](https://www.latimes.com/entertainment/movies/la-et-mn-black-panther-reactions-20180218-story.html), and here are some of the amazing people who made this film great.
 
 **Director**
 

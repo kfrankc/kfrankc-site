@@ -1,5 +1,5 @@
 ---
-title: "Deriving the Normal Distribution"
+title: "Deriving the normal distribution"
 date: 2018-10-19
 math: true
 summary: ""
@@ -17,7 +17,7 @@ $$
 
 This looks like a fairly complicated equation, but the resulting graph (shown above) has some very cool properties (integrates to 1, represents real-valued random variables whose distributions are not known etc...). I've always wondered how this is derived, and I finally found some answers via great [videos](https://www.youtube.com/watch?v=cTyPuZ9-JZ0) and [online forums](https://math.stackexchange.com/questions/384893/how-was-the-normal-distribution-derived). I will give an overview of the derivation here, based on YouTuber Mathoma's amazing video (linked above).
 
-## Part 1: The Theory
+**Part 1: The Theory**
 
 Mathoma gave a great analogy about how to understand this distribution: imagine you are throwing darts on a polar coordinate system, with the goal of hitting the center \\((0,0)\\). Now, given an arbitrary dart landing on coordinate \\((r, \theta)\\), we can also say that the coordinate is \\((x, y)\\) if we convert from polar to cartesian. 
 
@@ -87,7 +87,7 @@ $$
 
 [Plotting this equation out](https://www.desmos.com/calculator/hhsa3qpffi) with $A=-1$ (more on why $A$ is negative later) and $\lambda=1$, we see that it takes a gaussian form!
 
-## Part 2: Massaging the Equation
+**Part 2: Massaging the Equation**
 
 The remainder of this derivation serves to massage Eq 5 into the class of gaussians we are interested in, the normal gaussian.
 

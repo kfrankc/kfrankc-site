@@ -1,5 +1,5 @@
 ---
-title: "Why is Kurtosis of Standard Normal Distribution 3?"
+title: "Kurtosis of standard normal"
 date: 2018-10-29
 math: true
 summary: ""
@@ -21,7 +21,7 @@ My textbook explains:
 
 I've always wondered how $E\left[\left(\frac{X-\mu}{\sigma}\right)^4\right]$ is calculated to be 3. I will attempt to derive this solution. 
 
-## Assumptions
+**Assumptions**
 
 The Normal Distribution has Probability Density Function (PDF):
 
@@ -41,7 +41,7 @@ $$
 
 We need to find $E\left[\left(\frac{X-\mu}{\sigma}\right)^4\right]$, which can now be written as $E[X^4]$.
 
-## Derivation
+**Derivation**
 
 $$
 \begin{align*}

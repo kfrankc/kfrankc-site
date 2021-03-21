@@ -1,4 +1,13 @@
 [[artworks]]
+alt = "WFH 2021"
+description = "Isometric room exploration"
+date = "Jan 2021"
+image = "drawings/wfh2021.png"
+mediums = "Digital"
+thumb = "drawings/wfh2021-thumb.png"
+title = "WFH 2021"
+
+[[artworks]]
 alt = "Evermore"
 description = "Exploring a more simple style for Taylor Swift's Evermore ✒️"
 date = "Dec 2020"

@@ -1,5 +1,5 @@
 ---
-title: 'Pandas Tips & Tricks'
+title: 'Pandas tips & tricks'
 date: 2019-12-29
 summary: ""
 type: post
@@ -10,7 +10,7 @@ Pandas is a comprehensive Python library for data analysis, but its syntax for p
 
 I will be updating this as I come across/learn new useful methods.
 
-#### (Growing) List of Useful Tips
+**(Growing) List of Useful Tips**
 
 **Note:** assume `import pandas as pd` below:
 

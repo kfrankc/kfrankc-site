@@ -1,5 +1,5 @@
 ---
-title: "UCLA Engineering Commencement Speech"
+title: "Commencement speech"
 date: 2017-07-18
 summary: ""
 type: "post"
