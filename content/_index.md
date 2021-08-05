@@ -15,7 +15,7 @@ Previously, I received a M.S. in data science from UW, and a B.S. in computer sc
 
 In my spare time I like to [draw](https://instagram.com/bykfrankc), [read](https://goodreads.com/kfrankc), and (occasionally) [take photos](https://500px.com/p/kfrankc)
 
-kfrankc [at] uw edu
+frank [at] kfrankc com
 
 ---
 

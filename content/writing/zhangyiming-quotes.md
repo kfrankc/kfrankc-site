@@ -8,7 +8,7 @@ markup: goldmark
 
 Zhang Yiming (张一鸣) is the billionaire founder of Chinese internet company ByteDance, which develops a variety of apps, including the short-form video sharing platform TikTok. In his early 30s, while building his first startup, Zhang was also a prolific blogger, leaving a lot of his thoughts on work ethics, life philosophy, and relationship management on Weibo. These snippets from the early 2010s are especially interesting to look at now, considering his success in building a valuable technology giant in the post-Baidu, post-Alibaba, and post-Tencent tech landscape.
 
-I found most of the quotes from this [WeChat article](https://mp.weixin.qq.com/s/BTqUYEB0N8vd2o_XBhcnUA). I took a select few and translated them into English. They are split into three sections: person growth, management, and business. The Chinese quote is presented first, followed by English translation.
+I have translated a select number of his quotes (logged in this [WeChat article](https://mp.weixin.qq.com/s/BTqUYEB0N8vd2o_XBhcnUA)) to make it accessible for the English audience. They are split into three sections: person growth, management, and business. The Chinese quote is presented first, followed by English translation.
 
 ---
 
@@ -156,7 +156,7 @@ If you are talented, and proficient in some specific skills, please don't rush t
 
 发现问题总是又高兴又郁闷，高兴：解决问题；郁闷：为什么是我发现，为计么现在才发现。
 
-When I discover problems, I'm always happy and sad. Happy, because I can now find solutions to the problem. Sad, because I wonder why it was me who found it first, and why is it happening now.
+When I discover problems, I'm always happy and sad. Happy, because I can now find solutions to the problem. Sad, because I wonder why it was me who found it first, and why was it only discovered now.
 
 模式、方向、战略提的很多，但是许多公司其实死在非常重要但是容易被忽略的基础点或细节上。
 
