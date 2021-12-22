@@ -1,4 +1,22 @@
 [[artworks]]
+alt = "Frank Herbert"
+description = "Celebrating Dune being brought to the big screen 🏜️"
+date = "Nov 2021"
+image = "drawings/dune.PNG"
+mediums = "Digital"
+thumb = "drawings/dune-thumb.PNG"
+title = "Frank Herbert"
+
+[[artworks]]
+alt = "Sending out a tweet"
+description = "Celebrating day 1 @ Twitter"
+date = "Aug 2021"
+image = "drawings/tweet.PNG"
+mediums = "Digital"
+thumb = "drawings/tweet-thumb.PNG"
+title = "Sending out a tweet"
+
+[[artworks]]
 alt = "WFH 2021"
 description = "Isometric room exploration"
 date = "Jan 2021"
@@ -99,7 +117,7 @@ title = "Brie Larson"
 
 [[artworks]]
 alt = "WFH 3/3"
-description = "Working from home."
+description = "Working from home"
 date = "May 2020"
 image = "drawings/wfh3.PNG"
 mediums = "Digital"
@@ -108,7 +126,7 @@ title = "WFH 3/3"
 
 [[artworks]]
 alt = "WFH 2/3"
-description = "Working from home."
+description = "Working from home"
 date = "Apr 2020"
 image = "drawings/wfh2.PNG"
 mediums = "Digital"
@@ -117,7 +135,7 @@ title = "WFH 2/3"
 
 [[artworks]]
 alt = "WFH 1/3"
-description = "Working from home."
+description = "Working from home"
 date = "Apr 2020"
 image = "drawings/wfh1.PNG"
 mediums = "Digital"
@@ -126,7 +144,7 @@ title = "WFH 1/3"
 
 [[artworks]]
 alt = "AR Box"
-description = "Not just sitting on a box."
+description = "Not just sitting on a box"
 date = "Apr 2020"
 image = "drawings/arbox.PNG"
 mediums = "Digital"
@@ -135,7 +153,7 @@ title = "Augmented Reality"
 
 [[artworks]]
 alt = "VR Monster"
-description = "Motion blur."
+description = "Motion blur sickness"
 date = "Apr 2020"
 image = "drawings/vrmonster.PNG"
 mediums = "Digital"
@@ -144,7 +162,7 @@ title = "VR Monster"
 
 [[artworks]]
 alt = "2020"
-description = "Starting 2020 by revisiting JT's 20/20 Experience."
+description = "Starting 2020 by revisiting JT's 20/20 Experiene"
 date = "Jan 2020"
 image = "drawings/2020.PNG"
 mediums = "Digital"
@@ -153,7 +171,7 @@ title = "20/20 Vision"
 
 [[artworks]]
 alt = "Mixed Reality"
-description = "Perspective blur."
+description = "Celebrating day 1 @ Microsoft Mixed Reality at Work"
 date = "Aug 2019"
 image = "drawings/kfrankc-mrw.PNG"
 mediums = "Digital"
@@ -162,7 +180,7 @@ title = "Mixed Reality"
 
 [[artworks]]
 alt = "Ludo"
-description = "Ludo was the Corporate VP in the first engineering org I joined at Microsoft. He trusted me to lead and grow the Early-in-Career community, and in turn I had the opportunity to organize many initiatives in the org."
+description = "Ludo was the CVP in the first engineering org I joined at Microsoft. He trusted me to lead and grow the Early-in-Career community, and in turn I had the opportunity to organize many initiatives in the org"
 date = "Jul 2019"
 image = "drawings/ludo.png"
 mediums = "Digital"
@@ -171,7 +189,7 @@ title = "Ludo"
 
 [[artworks]]
 alt = "Heather"
-description = "Heather was the General Manager in the first engineering org I joined at Microsoft. She provided me opportunities to take on difficult but rewarding projects, train in public speaking, and present workshops in both Redmond, US and Hyderabad, India."
+description = "Heather was the GM in the first engineering org I joined at Microsoft. She provided me opportunities to take on difficult but rewarding projects, train in public speaking, and present workshops in both Redmond and Hyderabad"
 date = "Jul 2019"
 image = "drawings/heather.png"
 mediums = "Digital"
@@ -216,7 +234,7 @@ title = "Eminem"
 
 [[artworks]]
 alt = "Leon"
-description = "Leon and I started at Microsoft together. We collaborated on a lot of hackathons! He also inspired me to build my own PC."
+description = "Leon and I started at Microsoft together. We collaborated on a lot of hackathons! He also inspired me to build my own PC"
 date = "Mar 2019"
 image = "drawings/leon.PNG"
 mediums = "Digital"
@@ -261,7 +279,7 @@ title = "Iris"
 
 [[artworks]]
 alt = "Prof. Reiher"
-description = "Prof. Reiher was my networking and cybersecurity professor at UCLA. He's also my advisor when I created my own cybersecurity seminar."
+description = "Prof. Reiher was my networking and cybersecurity professor at UCLA. He's also my advisor when I created my own cybersecurity seminar"
 date = "May 2017"
 image = "drawings/prof_reiher.jpg"
 mediums = "Pencil + Ink"
@@ -288,7 +306,7 @@ title = "Anthony"
 
 [[artworks]]
 alt = "Nishant"
-description = "Nishant was a PhD student at UCLA, and my undegrad research mentor. He showed me the importance of lifelong learning and being a polymath."
+description = "Nishant was a PhD student at UCLA, and my undegrad research mentor. He showed me the importance of lifelong learning and being a polymath"
 date = "Dec 2016"
 image = "drawings/nishant.jpg"
 mediums = "Pencil + Ink"
@@ -297,7 +315,7 @@ title = "Nishant"
 
 [[artworks]]
 alt = "Adrian"
-description = "Adrian was my Residence Director when I was a Resident Assistant at UCLA. He loves Marvel and Star Wars."
+description = "Adrian was my Residence Director when I was a Resident Assistant at UCLA. He loves Marvel and Star Wars"
 date = "Dec 2016"
 image = "drawings/adrian.jpg"
 mediums = "Pencil + Ink"
@@ -306,7 +324,7 @@ title = "Adrian"
 
 [[artworks]]
 alt = "Ms. Geers"
-description = "Ms. Geers was my eleventh-grade English teacher. She taught me the beauty of the English language."
+description = "Ms. Geers was my eleventh-grade English teacher. She taught me the beauty of the English language"
 date = "May 2013"
 image = "drawings/ms_geers.jpg"
 mediums = "Pencil + Ink"
@@ -315,7 +333,7 @@ title = "Ms. Geers"
 
 [[artworks]]
 alt = "Mrs. Moore"
-description = "Mrs. Moore was my tenth-grade English teacher. She taught me the importance of storytelling."
+description = "Mrs. Moore was my tenth-grade English teacher. She taught me the importance of storytelling"
 date = "May 2013"
 image = "drawings/mrs_moore.jpg"
 mediums = "Pencil + Ink"
@@ -324,7 +342,7 @@ title = "Mrs. Moore"
 
 [[artworks]]
 alt = "Mlle. Hodin"
-description = "Mlle. Hodin was my French teacher in high school. She taught not only the French language, but also the beauty of the French culture."
+description = "Mlle. Hodin was my French teacher in high school. She taught not only the French language, but also the beauty of the French culture"
 date = "May 2013"
 image = "drawings/mlle_hodin.jpg"
 mediums = "Pencil + Ink"
@@ -333,7 +351,7 @@ title = "Mlle. Hodin"
 
 [[artworks]]
 alt = "Mrs. Cohen"
-description = "Mrs. Cohen was my journalism teacher in high school. She taught me the importance of writing as a core communication medium."
+description = "Mrs. Cohen was my journalism teacher in high school. She taught me the importance of writing as a core communication medium"
 date = "Jun 2012"
 image = "drawings/mrs_cohen.jpg"
 mediums = "Pencil + Ink"
@@ -342,7 +360,7 @@ title = "Mrs. Cohen"
 
 [[artworks]]
 alt = "Mr. Gill"
-description = "Mr. Gill was my eighth-grade algebra teacher. He loved to golf, and taught me to love the problem-solving part of math."
+description = "Mr. Gill was my eighth-grade algebra teacher. He loved to golf, and taught me to love the problem-solving part of math"
 date = "Jun 2008"
 image = "drawings/mr_gill.jpg"
 mediums = "Pencil + Ink"
