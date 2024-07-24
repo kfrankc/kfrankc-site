@@ -1,14 +1,14 @@
 ---
 title: "Frank Chen"
 date: 2020-06-26
-description: "PM @ Microsoft"
+description: "PM @ Typeface"
 authorImage : ""
 type: "home"
 ---
 
-I am a product manager at [Twitter Cortex](https://cortex.twitter.com/), where I explore applied machine learning at scale
+I work on generative AI products at [Typeface](https://www.typeface.ai/) ✨
 
-Previously, I worked on several products at [Microsoft](https://www.microsoft.com/) to help essential industries embrace digital transformation and technology adoption: I have built [data platforms](https://www.microsoft.com/en-us/itshowcase/end-to-end-telemetry-for-sap-on-azure) for companies to migrate to the cloud, and introduced a new retail AI solution called [Connected Spaces](https://dynamics.microsoft.com/en-us/connected-spaces/overview/)
+Previously, I worked at Twitter (now [X](https://x.com/)) on recommendations, ads, health, & more. I have also built data & computer vision products at [Microsoft](https://www.microsoft.com/) to help essential industries embrace digital transformation and technology adoption
 
 Before this, I worked at [JPL](https://www.jpl.nasa.gov/), [Workday](https://www.workday.com/), [Taboola](https://www.taboola.com/), & others
 
@@ -20,7 +20,7 @@ frank [at] kfrankc com
 
 ---
 
-[Resume](/files/kfrankc_RESUME.pdf) 📃
+[Resume](/files/kfrankc_resume.pdf) 📃
 
 ---
 
