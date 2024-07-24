@@ -38,7 +38,11 @@ markup: goldmark
 
 [Spiderman: No Way Home](https://www.imdb.com/title/tt10872600/?ref_=nv_sr_srsg_0) - An ambitious, bold MCU film that wraps up the Spiderman 'Home' trilogy with [near-perfect](https://www.rottentomatoes.com/m/spider_man_no_way_home) Rotten Tomatoes scores from both critics and audiences. For fans of Spiderman and the Marvel Cinematic Universe, this film will give you joy
 
+[Don't Look Up](https://www.imdb.com/title/tt11286314/?ref_=nv_sr_srsg_0) - While dystopian films mostly follow similar patterns, this black-comedy satire finds some unique angles based on relevant references to our current state of world
+
 ---
+
+[Arcane (Season 1)](https://www.imdb.com/title/tt11126994/) - A fantasy series based on the lore from League of Legends, with strong characters, story, action, & an animation style similar to acclaimed video game series [Dishonored](https://www.polygon.com/2012/10/17/3515608/arkanes-art-director-talks-about-the-art-of-dishonored#0)
 
 [The Expanse (Season 1 - 5)](https://www.imdb.com/title/tt3230854/?ref_=nv_sr_srsg_0) - An epic scifi series with well developed characters, multiple engaging storylines, and ultimately a story about the ["tribal politics that divides us, and the common humanity that unites us"](https://youtu.be/wc_YSphqqdI?t=293)
 
