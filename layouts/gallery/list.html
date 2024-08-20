@@ -1,7 +1,16 @@
 {{ define "main" }}
 <div class="image-container">
-	<div class="canvas" width="500" height="500">
+	<div class="loader"></div>
+	<div class="canvas">
 		<canvas class="view"></canvas>
 	</div>
 </div>
+
+<script>
+	$(window).on('load', function () {
+		$(".canvas").delay(500);
+		$('.loader').hide();
+		$(".canvas").fadeIn(500);
+	})
+</script>
 {{ end }}

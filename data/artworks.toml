@@ -1,4 +1,67 @@
 [[artworks]]
+alt = "Dome House"
+description = "Capturing the beauty of the Silicon Valley hills"
+date = "Jun 2023"
+image = "drawings/dome.png"
+mediums = "Digital"
+thumb = "drawings/dome-thumb.png"
+title = "Dome House"
+
+[[artworks]]
+alt = "Wedding"
+description = "Celebrating my friends getting married!"
+date = "May 2023"
+image = "drawings/wedding-couple-2.png"
+mediums = "Digital"
+thumb = "drawings/wedding-couple-2-thumb.png"
+title = "Friend's Wedding"
+
+[[artworks]]
+alt = "Baby"
+description = "Drawing for a friend's baby's birthday"
+date = "Jan 2023"
+image = "drawings/baby.PNG"
+mediums = "Digital"
+thumb = "drawings/baby-thumb.PNG"
+title = "Baby's birthday"
+
+[[artworks]]
+alt = "Wedding"
+description = "Celebrating my friends getting married!"
+date = "Dec 2022"
+image = "drawings/wedding-couple-1.JPG"
+mediums = "Digital"
+thumb = "drawings/wedding-couple-1-thumb.JPG"
+title = "Friend's Wedding"
+
+[[artworks]]
+alt = "Happy Father's Day Dad!"
+description = "📚💻👷🏻⚒️🪵🏠"
+date = "May 2022"
+image = "drawings/dad.jpg"
+mediums = "Digital"
+thumb = "drawings/dad-thumb.jpg"
+title = "Happy Father's Day Dad!"
+
+[[artworks]]
+alt = "Wedding"
+description = "Goodbye gift for a rock climbing friend"
+date = "May 2022"
+image = "drawings/bouldering-friend.jpg"
+mediums = "Digital"
+thumb = "drawings/bouldering-friend-thumb.jpg"
+title = "Alexi"
+
+[[artworks]]
+alt = "Happy Mother's Day Mom!"
+description = "My mom is so cool"
+date = "May 2022"
+image = "drawings/mom.jpg"
+mediums = "Digital"
+thumb = "drawings/mom-thumb.jpg"
+title = "Happy Mother's Day Mom!"
+
+[[artworks]]
 alt = "Frank Herbert"
 description = "Celebrating Dune being brought to the big screen 🏜️"
 date = "Nov 2021"
@@ -6,6 +69,15 @@ image = "drawings/dune.PNG"
 mediums = "Digital"
 thumb = "drawings/dune-thumb.PNG"
 title = "Frank Herbert"
+
+[[artworks]]
+alt = "Banyan Tree"
+description = "Gift to my dad for his office"
+date = "Aug 2021"
+image = "drawings/banyan-tree.jpg"
+mediums = "Digital"
+thumb = "drawings/banyan-tree-thumb.JPG"
+title = "Banyan Tree"
 
 [[artworks]]
 alt = "Sending out a tweet"
@@ -35,6 +107,15 @@ thumb = "drawings/taylorswift-evermore-thumb.png"
 title = "Taylor Swift"
 
 [[artworks]]
+alt = "Mando & Grogu"
+description = "New Yorker comic-style for Disney's newest stars"
+date = "Sep 2020"
+image = "drawings/mando-grogu.PNG"
+mediums = "Digital"
+thumb = "drawings/mando-grogu-thumb.PNG"
+title = "Mando & Grogu"
+
+[[artworks]]
 alt = "Ruth Bader Ginsburg"
 description = "5-min caricature ✍️"
 date = "Sep 2020"
@@ -62,15 +143,6 @@ thumb = "drawings/jackma-thumb.png"
 title = "Jack Ma"
 
 [[artworks]]
-alt = "Mom"
-description = "5-min caricature ✍️"
-date = "Jul 2020"
-image = "drawings/mom.png"
-mediums = "Digital"
-thumb = "drawings/mom-thumb.png"
-title = "Mom"
-
-[[artworks]]
 alt = "Satya"
 description = "5-min caricature ✍️"
 date = "Jul 2020"
@@ -87,15 +159,6 @@ image = "drawings/aoc.png"
 mediums = "Digital"
 thumb = "drawings/aoc-thumb.png"
 title = "Alexandria Ocasio-Cortez"
-
-[[artworks]]
-alt = "Taylor Swift"
-description = "5-min caricature ✍️"
-date = "Jun 2020"
-image = "drawings/taylorswift.png"
-mediums = "Digital"
-thumb = "drawings/taylorswift-thumb.png"
-title = "Taylor Swift"
 
 [[artworks]]
 alt = "Dad"
