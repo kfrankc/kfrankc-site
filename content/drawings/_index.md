@@ -1,6 +1,7 @@
 ---
 title: "Drawings"
-date: 2019-05-12T12:14:34+06:00
-description: "This is meta description."
+date: 2019-05-12
+description: "A collection of drawings by Frank Chen."
 type: "drawings"
+images: ['card.png']
 ---
