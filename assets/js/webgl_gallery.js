@@ -21,7 +21,23 @@ class Grid {
         this.gridRows = gridRows
         this.gridMin = gridMin
         this.rects = []
-        this.currentRects = [{ x: 0, y: 0, w: this.gridColumns, h: this.gridRows }]
+        
+        // Calculate number of squares in each dimension
+        const squaresX = Math.floor(this.gridColumns / this.gridMin)
+        const squaresY = Math.floor(this.gridRows / this.gridMin)
+        
+        // Initialize currentRects with squares of size gridMin
+        this.currentRects = []
+        for (let y = 0; y < squaresY; y++) {
+            for (let x = 0; x < squaresX; x++) {
+                this.currentRects.push({
+                    x: x * this.gridMin,
+                    y: y * this.gridMin,
+                    w: this.gridMin,
+                    h: this.gridMin
+                })
+            }
+        }
     }
 
     // Takes the first rectangle on the list, and divides it in 2 more rectangles if possible
@@ -227,41 +243,27 @@ function loadTextureForImage (index) {
             console.log("name: " + params.gallery[idx].name + " | width:" + baseTexture.width + " | height: " + baseTexture.height)
             console.log("rect | width: " + image.width + " | height: " + image.height)
             
-            let desired_w, desired_h
-
-            if (baseTexture.width >= baseTexture.height) {
-                console.log("image width >= image height")
-                if (image.width >= image.height) {
-                    console.log("rect width >= rect height")
-                    desired_w = baseTexture.width * (image.width / baseTexture.height)
-                    baseTexture.width = desired_w
-                    baseTexture.height = image.width
-                } else {
-                    console.log("rect width < rect height")
-                    desired_w = baseTexture.width * (image.height / baseTexture.height)
-                    baseTexture.width = desired_w
-                    baseTexture.height = image.height
-                }
-            } else {
-                console.log("image width < image height")
-                if (image.width >= image.height) {
-                    console.log("rect width >= rect height")
-                    desired_h = baseTexture.height * (image.width / baseTexture.width)
-                    baseTexture.height = desired_h
-                    baseTexture.width = image.width
-                } else {
-                    console.log("rect width < rect height")
-                    desired_h = baseTexture.height * (image.height / baseTexture.width)
-                    baseTexture.height = desired_h
-                    baseTexture.width = image.height
-                }
-            }
-            baseTexture.width = Math.ceil(baseTexture.width)
-            baseTexture.height = Math.ceil(baseTexture.height)
-            console.log("NEW width:" + baseTexture.width + " | NEW height: " + baseTexture.height)
-
-            imageTexture = new PIXI.Texture(baseTexture, new PIXI.Rectangle(0, 0, image.width, image.height))
-            // imageTexture = new PIXI.Texture(baseTexture)
+            // Calculate scaling factors for both dimensions
+            const scaleX = image.width / baseTexture.width
+            const scaleY = image.height / baseTexture.height
+            
+            // Use the smaller scale to ensure image fits within cell
+            const scale = Math.min(scaleX, scaleY)
+            
+            // Calculate new dimensions maintaining aspect ratio
+            const newWidth = baseTexture.width * scale
+            const newHeight = baseTexture.height * scale
+            
+            // Center the image in the cell
+            image.anchor.set(0.5)
+            image.x += image.width / 2
+            image.y += image.height / 2
+            
+            // Update image dimensions
+            image.width = newWidth
+            image.height = newHeight
+            
+            imageTexture = new PIXI.Texture(baseTexture)
             image.texture = imageTexture
             rect.loaded = true
         }
@@ -296,7 +298,8 @@ function initRectsAndImages () {
         image.alpha = 0
         // Add image to the list
         images.push(image)
-        // Draw the rectangle
+        // Draw the rectangle with red border
+        graphics.lineStyle(2, 0xFF0000) // Add 2px red border
         graphics.drawRect(image.x, image.y, image.width, image.height)
     })
     // Ends the fill action
