@@ -29,6 +29,7 @@
         {{ end }}
         {{ if eq .Type "gallery" }}
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.0.2/pixi.min.js"></script>
+            <script src="/js/webgl_gallery.js"></script>
             {{- $js := resources.Get "/js/webgl_gallery.js" -}}
             {{- $opts := dict "params" (dict "gallery" site.Data.gallery.gallery) -}}
             {{- $js = $js | js.Build $opts -}}

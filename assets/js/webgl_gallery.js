@@ -22,9 +22,9 @@ class Grid {
         this.gridMin = gridMin
         this.rects = []
         
-        // Calculate number of squares in each dimension
-        const squaresX = Math.floor(this.gridColumns / this.gridMin)
-        const squaresY = Math.floor(this.gridRows / this.gridMin)
+        // Calculate number of squares needed to fill the entire space
+        const squaresX = Math.ceil(this.gridColumns / this.gridMin)
+        const squaresY = Math.ceil(this.gridRows / this.gridMin)
         
         // Initialize currentRects with squares of size gridMin
         this.currentRects = []
@@ -299,7 +299,7 @@ function initRectsAndImages () {
         // Add image to the list
         images.push(image)
         // Draw the rectangle with red border
-        graphics.lineStyle(2, 0xFF0000) // Add 2px red border
+        // graphics.lineStyle(2, 0xFF0000) // Add 2px red border
         graphics.drawRect(image.x, image.y, image.width, image.height)
     })
     // Ends the fill action
