@@ -6,9 +6,9 @@ images: ['card.png']
 type: "home"
 ---
 
-I work on generative AI products at [Typeface](https://www.typeface.ai/) ✨
+I work on AI & Personalization at [Tubi](https://tubitv.com/) 🎥
 
-Previously, I worked at Twitter (now [X](https://x.com/)) on recommendations, ads, health, & more. I have also built data & computer vision products at [Microsoft](https://www.microsoft.com/) to help essential industries embrace digital transformation and technology adoption
+Previously, I worked at [Typeface](https://www.typeface.ai/) on genAI for marketing. I have also worked at Twitter (now [X](https://x.com/)) on content recommendations, and [Microsoft](https://www.microsoft.com/) on 0-1 computer vision products
 
 Before this, I worked at [JPL](https://www.jpl.nasa.gov/), [Workday](https://www.workday.com/), [Taboola](https://www.taboola.com/), & others
 
