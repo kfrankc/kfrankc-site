@@ -16,6 +16,7 @@
         </div>
         {{ if eq .Type "home" }}
             {{- partial "footer.html" . -}}
+            <script src="/js/gaze-tracker.js"></script>
         {{ end }}
         {{ if eq .Type "drawings" }}
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
