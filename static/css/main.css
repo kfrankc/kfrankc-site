@@ -1,0 +1,131 @@
+
+/* General Demo Style */
+/* @import url(//fonts.googleapis.com/css?family=Comfortaa:wght@300;400;700&display=swap); */
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+a {
+	color: rgb(73, 72, 72);
+	font-weight: bold;
+	-webkit-transition: color 0.3s ease-out;
+	-moz-transition: color 0.3s ease-out;
+	-o-transition: color 0.3s ease-out;
+	transition: color 0.3s ease-out;
+}
+
+a:hover {
+	color: #A0A0A0;
+	text-decoration: none;
+}
+
+.inline-svg {
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	/* top: 0.15rem; */
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 30px 50px 30px;
+}
+
+.container > header {
+	padding: 60px 30px 50px;
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: #333;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.author {
+	color: grey;
+}
+
+.content {
+	max-width: 600px;
+}
+
+.hidden {
+    display: none;
+}
+
+button:focus {
+	outline: 5px auto black;
+}
+
+code {
+	color: #2C5DCD;
+}
+
+li {
+	margin-left: 30px;
+}
+
+img {
+    max-width: 100%;
+}
