@@ -1,19 +1,113 @@
 {{ define "main" }}
-	<!-- <div id="loading" class="og-loading"></div> -->
-	<ul id="og-grid" class="og-grid">
-		{{ range $.Site.Data.artworks.artworks }}
-			<li>
-				<a 
-					href="" 
-					data-largesrc="../{{ .image }}" 
-					data-title="{{ .title }}" 
-					data-mediums="{{ .mediums }}"
-					data-dimensions="{{ .date }}"
-					data-description="{{ .description }}">
-					<img class="d-none d-sm-block" src="../{{ .thumb }}" alt="{{ .alt }}">
-					<img class="d-block d-sm-none lazyload" data-src="../{{ .image }}" alt="{{ .alt }}">
-				</a>
-			</li>
-		{{ end }}
-	</ul>
+<div class="drawings-page">
+  <!-- Size filter options -->
+  <nav class="gallery-options">
+    <div class="size-buttons">
+      <button data-size="50%">small</button>
+      <button class="active" data-size="100%">medium</button>
+      <button data-size="150%">large</button>
+    </div>
+  </nav>
+
+  <!-- Drawings grid -->
+  <section class="gallery-grid" id="drawings-grid" data-size-grid="100%">
+    {{ range $index, $artwork := .Site.Data.artworks.artworks }}
+    <div class="gallery-item">
+      <img class="gallery-image drawings-image" src="/{{ $artwork.image }}" alt="{{ $artwork.alt }}" loading="lazy">
+    </div>
+    {{ end }}
+  </section>
+</div>
+
+<!-- GSAP and Flip plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Flip.min.js"></script>
+
+<script>
+  gsap.registerPlugin(Flip);
+
+  // DOM elements
+  const drawingsGrid = document.getElementById('drawings-grid');
+  const allDrawingsItems = document.querySelectorAll('.gallery-item');
+  const sizeButtons = document.querySelectorAll('.size-buttons button');
+
+  // State
+  let animated = false;
+  let currentGridSize = drawingsGrid.dataset.sizeGrid || "100%";
+
+  // Add click handlers to size buttons
+  sizeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      // Prevent interaction if animation is running
+      if (animated) return;
+
+      // Get target size from data attribute
+      const targetSize = btn.dataset.size;
+
+      // If already at this size, do nothing
+      if (targetSize === currentGridSize) return;
+
+      // Lock animation state
+      animated = true;
+
+      // Capture current state of all grid items
+      const state = Flip.getState(allDrawingsItems);
+
+      // Update grid size
+      drawingsGrid.dataset.sizeGrid = targetSize;
+      currentGridSize = targetSize;
+
+      // Update active button state
+      sizeButtons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const flipDuration = 1;
+      const staggerAmount = 0.3;
+      const totalFlipDuration = flipDuration + staggerAmount;
+
+      // Store current scroll position and container height to prevent jumping
+      const scrollY = window.scrollY;
+      const containerHeight = drawingsGrid.offsetHeight;
+      drawingsGrid.style.minHeight = containerHeight + 'px';
+
+      // Animate elements from the previous state to the new layout
+      Flip.from(state, {
+        absolute: true,
+        duration: flipDuration,
+        ease: "expo.inOut",
+        onComplete: () => {
+          // Reset min-height after animation
+          drawingsGrid.style.minHeight = '';
+          animated = false;
+        },
+        stagger: {
+          amount: staggerAmount,
+          from: "random",
+        },
+      }).fromTo(
+        drawingsGrid,
+        {
+          filter: "blur(0px)",
+        },
+        {
+          duration: totalFlipDuration,
+          keyframes: [
+            {
+              filter: "blur(10px)",
+              duration: totalFlipDuration * 0.5,
+              ease: "power2.in",
+            },
+            {
+              filter: "blur(0px)",
+              duration: totalFlipDuration * 0.5,
+              ease: "power2",
+              delay: 0.5,
+            },
+          ],
+        },
+        0
+      );
+    });
+  });
+</script>
 {{ end }}
