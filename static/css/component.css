@@ -386,3 +386,95 @@
 		gap: 0.75rem;
 	}
 }
+
+/* =============================================
+   Polaroid Lightbox Styles
+   ============================================= */
+
+.polaroid-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+
+.polaroid-overlay.active {
+	display: flex;
+}
+
+.polaroid {
+	background: white;
+	padding: 20px 20px 60px 20px;
+	box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+	position: relative;
+	overflow: hidden;
+	transition: transform 0.15s ease-out;
+	transform-style: preserve-3d;
+}
+
+.polaroid-shine {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 10;
+	transition: opacity 0.3s ease-out;
+}
+
+.polaroid-image-container {
+	width: min(70vw, 70vh);
+	height: min(70vw, 70vh);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.polaroid-image {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+	object-fit: contain;
+}
+
+.polaroid-caption {
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: #333;
+	font-weight: 400;
+}
+
+/* Make gallery items clickable */
+.gallery-item {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	.polaroid {
+		padding: 15px 15px 50px 15px;
+	}
+
+	.polaroid-image-container {
+		width: min(85vw, 85vw);
+		height: min(85vw, 85vw);
+	}
+
+	.polaroid-caption {
+		font-size: 0.875rem;
+	}
+}
