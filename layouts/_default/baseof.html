@@ -4,11 +4,6 @@
     {{ if eq .Type "home" }}
         {{- partial "home.html" . -}} 
     {{ end }}
-    {{ if eq .Type "gallery" }}
-    <head>
-        <link rel="stylesheet" type="text/css" href="../css/loader.css" />
-    </head>
-    {{ end }}
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
@@ -27,14 +22,6 @@
                     Grid.init();
                 });
             </script>
-        {{ end }}
-        {{ if eq .Type "gallery" }}
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.0.2/pixi.min.js"></script>
-            <script src="/js/webgl_gallery.js"></script>
-            {{- $js := resources.Get "/js/webgl_gallery.js" -}}
-            {{- $opts := dict "params" (dict "gallery" site.Data.gallery.gallery) -}}
-            {{- $js = $js | js.Build $opts -}}
-            <script src="{{ $js.Permalink }}"></script>
         {{ end }}
     </body>
 </html>

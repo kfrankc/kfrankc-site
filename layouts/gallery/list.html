@@ -1,16 +1,109 @@
 {{ define "main" }}
-<div class="image-container">
-	<div class="loader"></div>
-	<div class="canvas">
-		<canvas class="view"></canvas>
-	</div>
+<div class="gallery-page">
+  <!-- Size filter options -->
+  <nav class="gallery-options">
+    <div class="size-buttons">
+      <button data-size="50%">small</button>
+      <button class="active" data-size="100%">medium</button>
+      <button data-size="150%">large</button>
+    </div>
+  </nav>
+
+  <!-- Gallery grid -->
+  <section class="gallery-grid" id="gallery-grid" data-size-grid="100%">
+    {{ range $index, $image := .Site.Data.gallery.gallery }}
+    <div class="gallery-item">
+      <div class="gallery-image" style="background-image: url('/gallery/{{ $image.name }}')"></div>
+      <p>{{ printf "%02d" (add $index 1) }}</p>
+    </div>
+    {{ end }}
+  </section>
 </div>
 
+<!-- GSAP and Flip plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Flip.min.js"></script>
+
 <script>
-	$(window).on('load', function () {
-		$(".canvas").delay(500);
-		$('.loader').hide();
-		$(".canvas").fadeIn(500);
-	})
+  gsap.registerPlugin(Flip);
+
+  // DOM elements
+  const galleryGrid = document.getElementById('gallery-grid');
+  const allGalleryItems = document.querySelectorAll('.gallery-item');
+  const sizeButtons = document.querySelectorAll('.size-buttons button');
+
+  // State
+  let animated = false;
+  let currentGridSize = galleryGrid.dataset.sizeGrid || "100%";
+
+  // Add click handlers to size buttons
+  sizeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      // Prevent interaction if animation is running
+      if (animated) return;
+
+      // Get target size from data attribute
+      const targetSize = btn.dataset.size;
+
+      // If already at this size, do nothing
+      if (targetSize === currentGridSize) return;
+
+      // Lock animation state
+      animated = true;
+
+      // Capture current state of all grid items
+      const state = Flip.getState(allGalleryItems);
+
+      // Update grid size
+      galleryGrid.dataset.sizeGrid = targetSize;
+      currentGridSize = targetSize;
+
+      // Update active button state
+      sizeButtons.forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Animation settings
+      const flipDuration = 1;
+      const staggerAmount = 0.3;
+      const totalFlipDuration = flipDuration + staggerAmount;
+
+      // Animate from previous state to new layout
+      Flip.from(state, {
+        absolute: true,
+        duration: flipDuration,
+        ease: "expo.inOut",
+        onComplete: () => {
+          animated = false;
+        },
+        stagger: {
+          amount: staggerAmount,
+          from: "random",
+        },
+      }).fromTo(
+        galleryGrid,
+        {
+          filter: "blur(0px) brightness(100%)",
+          willChange: "filter",
+        },
+        {
+          duration: totalFlipDuration,
+          keyframes: [
+            {
+              filter: "blur(10px) brightness(200%)",
+              duration: totalFlipDuration * 0.5,
+              ease: "power2.in",
+            },
+            {
+              filter: "blur(0px) brightness(100%)",
+              duration: totalFlipDuration * 0.5,
+              ease: "power2",
+              delay: 0.5,
+            },
+          ],
+        },
+        0
+      );
+    });
+  });
 </script>
 {{ end }}
