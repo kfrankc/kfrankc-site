@@ -2,7 +2,7 @@
 baseurl = "https://kfrankc.com"
 languageCode = "en-us"
 sectionPagesMenu = "main"
-googleAnalytics = "UA-128201385-1"
+googleAnalytics = "G-366849346"
 
 [params]
 	name = "Frank Chen"

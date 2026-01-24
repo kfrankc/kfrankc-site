@@ -217,7 +217,7 @@
 .gallery-options {
 	display: flex;
 	justify-content: center;
-	padding: 1rem 0 0.5rem;
+	padding: 1rem 0;
 	position: sticky;
 	top: 0;
 	background: white;
