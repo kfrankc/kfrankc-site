@@ -349,12 +349,16 @@
 
 /* Mobile responsive */
 @media screen and (max-width: 767px) {
-	.gallery-grid[data-size-grid='50%'],
-	.gallery-grid[data-size-grid='75%'],
-	.gallery-grid[data-size-grid='100%'],
-	.gallery-grid[data-size-grid='125%'],
-	.gallery-grid[data-size-grid='150%'] {
+	.gallery-grid[data-size-grid='50%'] {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.gallery-grid[data-size-grid='100%'] {
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.gallery-grid[data-size-grid='150%'] {
+		grid-template-columns: repeat(1, 1fr);
 	}
 
 	.size-buttons button {
