@@ -13,8 +13,7 @@
   <section class="gallery-grid" id="gallery-grid" data-size-grid="100%">
     {{ range $index, $image := .Site.Data.gallery.gallery }}
     <div class="gallery-item">
-      <div class="gallery-image" style="background-image: url('/gallery/{{ $image.name }}')"></div>
-      <p>{{ printf "%02d" (add $index 1) }}</p>
+      <img class="gallery-image" src="/gallery/{{ $image.name }}" alt="Gallery image {{ add $index 1 }}" loading="lazy">
     </div>
     {{ end }}
   </section>
@@ -62,17 +61,23 @@
       sizeButtons.forEach((b) => b.classList.remove('active'));
       btn.classList.add('active');
 
-      // Animation settings
       const flipDuration = 1;
       const staggerAmount = 0.3;
       const totalFlipDuration = flipDuration + staggerAmount;
 
-      // Animate from previous state to new layout
+      // Store current scroll position and container height to prevent jumping
+      const scrollY = window.scrollY;
+      const containerHeight = galleryGrid.offsetHeight;
+      galleryGrid.style.minHeight = containerHeight + 'px';
+
+      // Animate elements from the previous state to the new layout
       Flip.from(state, {
         absolute: true,
         duration: flipDuration,
         ease: "expo.inOut",
         onComplete: () => {
+          // Reset min-height after animation
+          galleryGrid.style.minHeight = '';
           animated = false;
         },
         stagger: {
@@ -82,19 +87,18 @@
       }).fromTo(
         galleryGrid,
         {
-          filter: "blur(0px) brightness(100%)",
-          willChange: "filter",
+          filter: "blur(0px)",
         },
         {
           duration: totalFlipDuration,
           keyframes: [
             {
-              filter: "blur(10px) brightness(200%)",
+              filter: "blur(10px)",
               duration: totalFlipDuration * 0.5,
               ease: "power2.in",
             },
             {
-              filter: "blur(0px) brightness(100%)",
+              filter: "blur(0px)",
               duration: totalFlipDuration * 0.5,
               ease: "power2",
               delay: 0.5,
