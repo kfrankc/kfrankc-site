@@ -26,6 +26,18 @@
 <script>
   gsap.registerPlugin(Flip);
 
+  // Lazy load fade-in for images
+  const images = document.querySelectorAll('.gallery-image');
+  images.forEach((img) => {
+    if (img.complete) {
+      img.classList.add('loaded');
+    } else {
+      img.addEventListener('load', () => {
+        img.classList.add('loaded');
+      });
+    }
+  });
+
   // DOM elements
   const drawingsGrid = document.getElementById('drawings-grid');
   const allDrawingsItems = document.querySelectorAll('.gallery-item');
