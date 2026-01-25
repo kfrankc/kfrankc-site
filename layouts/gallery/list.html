@@ -12,7 +12,7 @@
   <!-- Gallery grid -->
   <section class="gallery-grid" id="gallery-grid" data-size-grid="100%">
     {{ range $index, $image := .Site.Data.gallery.gallery }}
-    <div class="gallery-item" data-index="{{ add $index 1 }}">
+    <div class="gallery-item" data-index="{{ add $index 1 }}" data-source="{{ $image.source }}" data-location="{{ $image.location }}" data-camera="{{ $image.camera }}">
       <img class="gallery-image" src="/gallery/{{ $image.name }}" alt="Gallery image {{ add $index 1 }}" loading="lazy">
     </div>
     {{ end }}
@@ -24,7 +24,8 @@
       <div class="polaroid-image-container">
         <img class="polaroid-image" id="polaroid-image" src="" alt="">
       </div>
-      <div class="polaroid-caption" id="polaroid-caption"></div>
+      <div class="polaroid-info" id="polaroid-info"></div>
+      <img class="polaroid-logo" id="polaroid-logo" src="" alt="">
     </div>
   </div>
 </div>
@@ -139,7 +140,17 @@
   const polaroidOverlay = document.getElementById('polaroid-overlay');
   const polaroid = document.getElementById('polaroid');
   const polaroidImage = document.getElementById('polaroid-image');
-  const polaroidCaption = document.getElementById('polaroid-caption');
+  const polaroidLogo = document.getElementById('polaroid-logo');
+  const polaroidInfo = document.getElementById('polaroid-info');
+  
+  // Logo source mapping
+  const logoSources = {
+    'dji': '/img/dji-logo.png',
+    'apple': '/img/apple-logo.png',
+    'sony': '/img/sony-logo.png',
+    'ricoh': '/img/ricoh-logo.png',
+    'olympus': '/img/olympus-logo.png'
+  };
   
   let isPolaroidOpen = false;
   let currentImageRect = null;
@@ -152,6 +163,9 @@
       
       const img = item.querySelector('.gallery-image');
       const index = item.dataset.index;
+      const source = item.dataset.source;
+      const location = item.dataset.location;
+      const camera = item.dataset.camera;
       
       // Store original position
       currentImageRect = img.getBoundingClientRect();
@@ -160,7 +174,28 @@
       // Set polaroid content
       polaroidImage.src = img.src;
       polaroidImage.alt = img.alt;
-      polaroidCaption.textContent = index;
+      
+      // Set location and camera info
+      const infoParts = [];
+      if (location) infoParts.push(location);
+      if (camera) infoParts.push(camera);
+      if (infoParts.length > 0) {
+        polaroidInfo.textContent = infoParts.join(' • ');
+        polaroidInfo.style.display = 'block';
+      } else {
+        polaroidInfo.style.display = 'none';
+      }
+      
+      // Set logo if source exists
+      if (source && logoSources[source]) {
+        polaroidLogo.src = logoSources[source];
+        polaroidLogo.alt = source + ' logo';
+        polaroidLogo.style.display = 'block';
+        // Add class for Apple logo (larger size)
+        polaroidLogo.className = 'polaroid-logo' + (source === 'apple' ? ' logo-apple' : '');
+      } else {
+        polaroidLogo.style.display = 'none';
+      }
       
       // Open polaroid
       openPolaroid();
@@ -249,6 +284,10 @@
 
   // Apply tilt and shine effect
   function applyPolaroidTilt(clientX, clientY) {
+    // Kill any running reset animation
+    gsap.killTweensOf(polaroid);
+    gsap.killTweensOf(getShine());
+    
     const rect = polaroid.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
@@ -274,14 +313,27 @@
     const yPercent = (y / rect.height) * 100;
     
     const shineEl = getShine();
-    shineEl.style.background = `radial-gradient(circle at ${xPercent}% ${yPercent}%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 30%, transparent 60%)`;
+    shineEl.style.background = `radial-gradient(circle at ${xPercent}% ${yPercent}%, rgba(255,255,255,0.35) 0%, rgba(255,255,255,0.15) 40%, transparent 80%)`;
     shineEl.style.opacity = '1';
   }
 
   function resetPolaroidTilt() {
-    polaroid.style.transform = '';
+    gsap.to(polaroid, {
+      rotateX: 0,
+      rotateY: 0,
+      scale: 1,
+      duration: 0.5,
+      ease: "power2.out",
+      onComplete: () => {
+        polaroid.style.transform = '';
+      }
+    });
     const shineEl = getShine();
-    shineEl.style.opacity = '0';
+    gsap.to(shineEl, {
+      opacity: 0,
+      duration: 0.4,
+      ease: "power2.out"
+    });
   }
 
   // Tilt and shine effect - only when mouse is on polaroid

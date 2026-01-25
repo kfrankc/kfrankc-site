@@ -1,116 +1,233 @@
 [[gallery]]
 name = "desert.jpg"
+source = "dji"
+location = "valley of fire state park"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "bonfire.jpg"
+source = "sony"
+location = "ucla"
+camera = "sony α5100"
 
 [[gallery]]
 name = "bunche.jpg"
+source = "sony"
+location = "ucla"
+camera = "sony α5100"
 
 [[gallery]]
 name = "seattle.jpg"
+source = "sony"
+location = "seattle"
+camera = "sony α5100"
 
 [[gallery]]
 name = "cherry-blossoms.jpg"
+source = "sony"
+location = "university of washington"
+camera = "sony α5100"
 
 [[gallery]]
 name = "sunset.jpg"
+source = "sony"
+location = "lake tahoe"
+camera = "sony α5100"
 
 [[gallery]]
 name = "shipwreck.jpg"
+source = "sony"
+location = "vancouver"
+camera = "sony α5100"
 
 [[gallery]]
 name = "tahoe.jpg"
+source = "sony"
+location = "lake tahoe"
+camera = "sony α5100"
 
 [[gallery]]
 name = "road.jpg"
+source = "dji"
+location = "livermore hills"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "lick-observatory.jpg"
+source = "dji"
+location = "lick observatory"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "salt-flats.jpg"
+source = "dji"
+location = "bonneville salt flats"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "dusk.jpg"
+source = "dji"
+location = "mt tampalpais"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "hwy-1.jpg"
+source = "dji"
+location = "highway 1"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "alviso.jpg"
+source = "apple"
+location = "alviso salt ponds"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "big-buddha.jpg"
+source = "apple"
+location = "hong kong"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "dome-home.jpg"
+source = "dji"
+location = "san jose hills"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "dumbo.jpg"
+source = "apple"
+location = "brooklyn"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "hk.jpg"
+source = "dji"
+location = "hong kong"
+camera = "dji osmo pocket 3"
 
 [[gallery]]
 name = "iit-bombay.jpg"
+source = "apple"
+location = "iit bombay"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "kauai.jpg"
+source = "dji"
+location = "kauai"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "osaka-castle.jpg"
+source = "apple"
+location = "osaka castle"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "pnw.jpg"
+source = "sony"
+location = "pnw"
+camera = "sony α5100"
 
 [[gallery]]
 name = "sf-sunset.jpg"
+source = "apple"
+location = "lands end"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "singapore.JPG"
+source = "apple"
+location = "singapore"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "taipei-101.jpg"
+source = "dji"
+location = "taipei"
+camera = "dji osmo pocket 3"
 
 [[gallery]]
 name = "tokyo.jpg"
+source = "dji"
+location = "tokyo"
+camera = "dji osmo pocker 3"
 
 [[gallery]]
 name = "tulip-field.jpg"
+source = "sony"
+location = "abbotsford"
+camera = "sony α5100"
 
 [[gallery]]
 name = "bridge.jpg"
+source = "olympus"
+location = "roger pass"
+camera = "olympus stylus zoom 70"
 
 [[gallery]]
 name = "banff.jpg"
+source = "olympus"
+location = "banff"
+camera = "olympus stylus zoom 70"
 
 [[gallery]]
 name = "dome.jpg"
+source = "dji"
+location = "bryce canyon"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "bryce-canyon.jpg"
+source = "apple"
+location = "bryce canyon"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "venice-elevation.JPG"
+source = "ricoh"
+location = "st mark's campanile"
+camera = "ricoh gr iiix"
 
 [[gallery]]
 name = "venice-canal.JPG"
+source = "ricoh"
+location = "murano"
+camera = "ricoh gr iiix"
 
 [[gallery]]
 name = "venice-gondola.JPG"
+source = "ricoh"
+location = "venice"
+camera = "ricoh gr iiix"
 
 [[gallery]]
 name = "bellagio.JPG"
+source = "ricoh"
+location = "lake como"
+camera = "ricoh gr iiix"
 
 [[gallery]]
 name = "nz-1.jpg"
+source = "dji"
+location = "tooth peaks"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "nz-2.jpg"
+source = "dji"
+location = "lake pukaki"
+camera = "dji mavic mini"
 
 [[gallery]]
 name = "marshall-beach.jpg"
+source = "apple"
+location = "marshall beach"
+camera = "iphone 12 pro"
 
 [[gallery]]
 name = "villa-carlotta.JPG"
+source = "ricoh"
+location = "villa carlotta"
+camera = "ricoh gr iiix"
