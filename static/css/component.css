@@ -410,6 +410,10 @@
 	display: flex;
 }
 
+.polaroid-overlay.active .polaroid {
+	opacity: 1;
+}
+
 .polaroid {
 	background: white;
 	padding: 20px 20px 60px 20px;
@@ -431,8 +435,9 @@
 	height: 100%;
 	pointer-events: none;
 	opacity: 0;
-	z-index: 10;
+	z-index: 100;
 	transition: opacity 0.3s ease-out;
+	mix-blend-mode: overlay;
 }
 
 .polaroid-image-container {
@@ -450,6 +455,9 @@
 	display: block;
 	object-fit: contain;
 	border-radius: 4px;
+	opacity: 1 !important;
+	position: relative;
+	z-index: 1;
 }
 
 .polaroid-info {
