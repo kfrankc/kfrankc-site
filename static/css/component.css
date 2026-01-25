@@ -410,8 +410,13 @@
 	display: flex;
 }
 
+.polaroid {
+	opacity: 0;
+	transition: opacity 0.4s ease-out;
+}
+
 .polaroid-overlay.active .polaroid {
-	opacity: 1;
+	opacity: 1 !important;
 }
 
 .polaroid {
@@ -437,7 +442,6 @@
 	opacity: 0;
 	z-index: 100;
 	transition: opacity 0.3s ease-out;
-	mix-blend-mode: overlay;
 }
 
 .polaroid-image-container {

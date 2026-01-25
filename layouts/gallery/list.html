@@ -210,11 +210,14 @@
     gsap.killTweensOf(polaroid);
     gsap.killTweensOf(polaroidOverlay);
     
+    // Clear any inline opacity from GSAP (let CSS handle opacity)
+    polaroid.style.opacity = '';
+    
     // Set initial state BEFORE showing overlay
     gsap.set(polaroidOverlay, { opacity: 0 });
-    gsap.set(polaroid, { scale: 0.85, opacity: 0 });
+    gsap.set(polaroid, { scale: 0.85 });
     
-    // Now show overlay
+    // Now show overlay (CSS transition handles polaroid opacity)
     polaroidOverlay.classList.add('active');
     
     // Animate overlay in
@@ -224,16 +227,11 @@
       ease: "power2.out" 
     });
     
-    // Animate polaroid in with scale and opacity
+    // Animate polaroid scale only (CSS handles opacity)
     gsap.to(polaroid, {
       scale: 1,
-      opacity: 1,
       duration: 0.45,
       ease: "power2.out",
-      onComplete: () => {
-        // Force final state
-        gsap.set(polaroid, { opacity: 1, scale: 1 });
-      }
     });
     
     // Add mouse move listener for 3D tilt
@@ -252,16 +250,16 @@
     document.removeEventListener('mousemove', handleMouseMove);
     window.removeEventListener('scroll', handleScroll);
     
-    // Animate out polaroid and overlay together
+    // Animate out polaroid scale only
     gsap.to(polaroid, {
-      scale: 0.5,
-      opacity: 0,
+      scale: 0.85,
       rotateX: 0,
       rotateY: 0,
       duration: 0.3,
       ease: "power3.in",
     });
     
+    // Animate overlay out
     gsap.to(polaroidOverlay, {
       opacity: 0,
       duration: 0.3,
@@ -270,7 +268,8 @@
         polaroidOverlay.classList.remove('active');
         // Reset styles after overlay is hidden
         gsap.set(polaroidOverlay, { opacity: '' });
-        gsap.set(polaroid, { rotateX: 0, rotateY: 0, scale: 1, opacity: 1 });
+        gsap.set(polaroid, { rotateX: 0, rotateY: 0, scale: 1 });
+        polaroid.style.opacity = '';
       }
     });
   }
