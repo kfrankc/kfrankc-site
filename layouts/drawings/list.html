@@ -12,8 +12,8 @@
   <!-- Drawings grid -->
   <section class="gallery-grid" id="drawings-grid" data-size-grid="100%">
     {{ range $index, $artwork := .Site.Data.artworks.artworks }}
-    <div class="gallery-item" data-index="{{ add $index 1 }}">
-      <img class="gallery-image drawings-image" src="/{{ $artwork.image }}" alt="{{ $artwork.alt }}" loading="lazy">
+    <div class="gallery-item" data-index="{{ add $index 1 }}" data-title="{{ $artwork.title }}" data-mediums="{{ $artwork.mediums }}" data-date="{{ $artwork.date }}">
+      <img class="gallery-image drawings-image" src="/{{ $artwork.image }}" alt="{{ $artwork.title }}" loading="lazy">
     </div>
     {{ end }}
   </section>
@@ -24,6 +24,7 @@
       <div class="polaroid-image-container">
         <img class="polaroid-image" id="polaroid-image" src="" alt="">
       </div>
+      <div class="polaroid-info" id="polaroid-info"></div>
     </div>
   </div>
 </div>
@@ -139,6 +140,7 @@
   const polaroidOverlay = document.getElementById('polaroid-overlay');
   const polaroid = document.getElementById('polaroid');
   const polaroidImage = document.getElementById('polaroid-image');
+  const polaroidInfo = document.getElementById('polaroid-info');
   
   let currentImageRect = null;
   let scrollStart = 0;
@@ -149,6 +151,9 @@
       if (animated || isPolaroidOpen) return;
       
       const img = item.querySelector('.gallery-image');
+      const title = item.dataset.title;
+      const mediums = item.dataset.mediums;
+      const date = item.dataset.date;
       
       // Store original position
       currentImageRect = img.getBoundingClientRect();
@@ -158,6 +163,15 @@
       polaroidImage.src = img.src;
       polaroidImage.alt = img.alt;
       polaroidImage.style.opacity = '1';
+      
+      // Set info text: title • mediums • date
+      const infoParts = [title, mediums, date].filter(Boolean);
+      if (infoParts.length > 0) {
+        polaroidInfo.textContent = infoParts.join(' • ');
+        polaroidInfo.style.display = 'block';
+      } else {
+        polaroidInfo.style.display = 'none';
+      }
       
       // Open polaroid
       openPolaroid();
