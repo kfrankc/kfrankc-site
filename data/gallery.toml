@@ -231,3 +231,39 @@ name = "villa-carlotta.webp"
 source = "ricoh"
 location = "villa carlotta"
 camera = "ricoh gr iiix"
+
+[[gallery]]
+name = "yosemite.webp"
+source = "ricoh"
+location = "yosemite"
+camera = "ricoh gr iiix"
+
+[[gallery]]
+name = "yellowstone.webp"
+source = "ricoh"
+location = "yellowstone"
+camera = "ricoh gr iiix"
+
+[[gallery]]
+name = "zhangjiajie-hotel.webp"
+source = "ricoh"
+location = "zhangjiajie"
+camera = "ricoh gr iiix"
+
+[[gallery]]
+name = "72qilou.webp"
+source = "ricoh"
+location = "72 qilou"
+camera = "ricoh gr iiix"
+
+[[gallery]]
+name = "temple-of-heaven.webp"
+source = "ricoh"
+location = "temple of heaven"
+camera = "ricoh gr iiix"
+
+[[gallery]]
+name = "yiheyuan.webp"
+source = "ricoh"
+location = "summer palace"
+camera = "ricoh gr iiix"

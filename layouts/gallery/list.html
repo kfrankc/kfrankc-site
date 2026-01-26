@@ -37,16 +37,57 @@
 <script>
   gsap.registerPlugin(Flip);
 
-  // Lazy load fade-in for images
-  const images = document.querySelectorAll('.gallery-image');
-  images.forEach((img) => {
-    if (img.complete) {
-      img.classList.add('loaded');
-    } else {
-      img.addEventListener('load', () => {
-        img.classList.add('loaded');
-      });
+  // =============================================
+  // Configuration
+  // =============================================
+  const ENABLE_SHUFFLE = true; // Set to false to disable random order
+
+  // Shuffle gallery items on page load
+  function shuffleGalleryItems() {
+    if (!ENABLE_SHUFFLE) return;
+    
+    const grid = document.getElementById('gallery-grid');
+    const items = Array.from(grid.querySelectorAll('.gallery-item'));
+    
+    // Fisher-Yates shuffle
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
     }
+    
+    // Re-append items in shuffled order
+    items.forEach(item => grid.appendChild(item));
+  }
+  shuffleGalleryItems();
+
+  // Fade-in images with stagger effect (works for both cached and non-cached)
+  function setupImageFadeIn() {
+    const images = document.querySelectorAll('.gallery-image');
+    let loadedCount = 0;
+    const staggerDelay = 30; // ms between each image fade-in
+    
+    images.forEach((img, index) => {
+      function fadeIn() {
+        // Add staggered delay for visual effect
+        setTimeout(() => {
+          img.classList.add('loaded');
+        }, index * staggerDelay);
+      }
+      
+      if (img.complete) {
+        // Image already loaded (cached) - fade in with delay
+        fadeIn();
+      } else {
+        // Image still loading - fade in when ready
+        img.addEventListener('load', fadeIn);
+        img.addEventListener('error', fadeIn);
+      }
+    });
+  }
+  
+  // Run after a micro-delay to ensure DOM is ready
+  requestAnimationFrame(() => {
+    setupImageFadeIn();
   });
 
   // DOM elements
