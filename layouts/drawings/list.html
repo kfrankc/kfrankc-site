@@ -10,10 +10,10 @@
   </nav>
 
   <!-- Drawings grid -->
-  <section class="gallery-grid" id="drawings-grid" data-size-grid="100%">
+  <section class="gallery-grid gallery-hidden" id="drawings-grid" data-size-grid="100%">
     {{ range $index, $artwork := .Site.Data.artworks.artworks }}
     <div class="gallery-item" data-index="{{ add $index 1 }}" data-title="{{ $artwork.title }}" data-mediums="{{ $artwork.mediums }}" data-date="{{ $artwork.date }}">
-      <img class="gallery-image drawings-image" src="/{{ $artwork.image }}" alt="{{ $artwork.title }}" loading="lazy">
+      <img class="gallery-image drawings-image" src="/{{ $artwork.image }}" alt="{{ $artwork.title }}" width="{{ $artwork.width }}" height="{{ $artwork.height }}" style="aspect-ratio: {{ $artwork.width }} / {{ $artwork.height }};">
     </div>
     {{ end }}
   </section>
@@ -36,16 +36,34 @@
 <script>
   gsap.registerPlugin(Flip);
 
-  // Lazy load fade-in for images
-  const images = document.querySelectorAll('.gallery-image');
-  images.forEach((img) => {
-    if (img.complete) {
-      img.classList.add('loaded');
-    } else {
-      img.addEventListener('load', () => {
-        img.classList.add('loaded');
-      });
-    }
+  // Fade-in images with stagger effect
+  function setupImageFadeIn() {
+    const images = document.querySelectorAll('.gallery-image');
+    const staggerDelay = 30;
+    
+    images.forEach((img, index) => {
+      function fadeIn() {
+        setTimeout(() => {
+          img.classList.add('loaded');
+        }, index * staggerDelay);
+      }
+      
+      if (img.complete) {
+        fadeIn();
+      } else {
+        img.addEventListener('load', fadeIn);
+        img.addEventListener('error', fadeIn);
+      }
+    });
+  }
+  
+  // Show grid after styles are computed (prevents size flash)
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const grid = document.getElementById('drawings-grid');
+      grid.classList.remove('gallery-hidden');
+      setupImageFadeIn();
+    });
   });
 
   // DOM elements

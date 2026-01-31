@@ -3,291 +3,389 @@ date = "jun 2023"
 image = "drawings/dome.png"
 mediums = "digital"
 title = "dome house"
+width = 785
+height = 1000
 
 [[artworks]]
 date = "may 2023"
 image = "drawings/wedding-couple-2.png"
 mediums = "digital"
 title = "friend's wedding"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jan 2023"
 image = "drawings/baby.PNG"
 mediums = "digital"
 title = "baby's birthday"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "dec 2022"
 image = "drawings/wedding-couple-1.JPG"
 mediums = "digital"
 title = "friend's wedding"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "may 2022"
 image = "drawings/dad.jpg"
 mediums = "digital"
 title = "happy father's day"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "may 2022"
 image = "drawings/bouldering-friend.jpg"
 mediums = "digital"
 title = "alexi"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "may 2022"
 image = "drawings/mom.jpg"
 mediums = "digital"
 title = "happy mother's day"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "nov 2021"
 image = "drawings/dune.PNG"
 mediums = "digital"
 title = "frank herbert"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "aug 2021"
 image = "drawings/banyan-tree.jpg"
 mediums = "digital"
 title = "banyan tree"
+width = 1000
+height = 777
 
 [[artworks]]
 date = "aug 2021"
 image = "drawings/tweet.PNG"
 mediums = "digital"
 title = "sending out a tweet"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jan 2021"
 image = "drawings/wfh2021.png"
 mediums = "digital"
 title = "wfh 2021"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "dec 2020"
 image = "drawings/taylorswift-evermore.png"
 mediums = "digital"
 title = "taylor swift"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "sep 2020"
 image = "drawings/mando-grogu.PNG"
 mediums = "digital"
 title = "mando & grogu"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "sep 2020"
 image = "drawings/rbg.PNG"
 mediums = "digital"
 title = "ruth bader ginsburg"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "aug 2020"
 image = "drawings/tchalla.png"
 mediums = "digital"
 title = "t'challa"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jul 2020"
 image = "drawings/jackma.png"
 mediums = "digital"
 title = "jack ma"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jul 2020"
 image = "drawings/satya.png"
 mediums = "digital"
 title = "satya nadella"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jun 2020"
 image = "drawings/aoc.png"
 mediums = "digital"
 title = "alexandria ocasio-cortez"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jun 2020"
 image = "drawings/dad.png"
 mediums = "digital"
 title = "happy father's day!"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jun 2020"
 image = "drawings/brielarson.png"
 mediums = "digital"
 title = "brie larson"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "may 2020"
 image = "drawings/wfh3.PNG"
 mediums = "digital"
 title = "wfh 3/3"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "apr 2020"
 image = "drawings/wfh2.PNG"
 mediums = "digital"
 title = "wfh 2/3"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "apr 2020"
 image = "drawings/wfh1.PNG"
 mediums = "digital"
 title = "wfh 1/3"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "apr 2020"
 image = "drawings/arbox.PNG"
 mediums = "digital"
 title = "augmented reality"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "apr 2020"
 image = "drawings/vrmonster.PNG"
 mediums = "digital"
 title = "vr monster"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jan 2020"
 image = "drawings/2020.PNG"
 mediums = "digital"
 title = "20/20 vision"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "aug 2019"
 image = "drawings/kfrankc-mrw.PNG"
 mediums = "digital"
 title = "mixed reality"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "jul 2019"
 image = "drawings/ludo.png"
 mediums = "digital"
 title = "ludo"
+width = 750
+height = 1000
 
 [[artworks]]
 date = "jul 2019"
 image = "drawings/heather.png"
 mediums = "digital"
 title = "heather"
+width = 750
+height = 1000
 
 [[artworks]]
 date = "mar 2019"
 image = "drawings/steven.png"
 mediums = "digital"
 title = "steven"
+width = 750
+height = 1000
 
 [[artworks]]
 date = "mar 2019"
 image = "drawings/logic.png"
 mediums = "digital"
 title = "logic"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "mar 2019"
 image = "drawings/joyner.png"
 mediums = "digital"
 title = "joyner lucas"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "mar 2019"
 image = "drawings/eminem.png"
 mediums = "digital"
 title = "eminem"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "mar 2019"
 image = "drawings/leon.PNG"
 mediums = "digital"
 title = "leon"
+width = 750
+height = 1000
 
 [[artworks]]
 date = "may 2018"
 image = "drawings/franos.PNG"
 mediums = "digital"
 title = "franos"
+width = 1000
+height = 1000
 
 [[artworks]]
 date = "may 2018"
 image = "drawings/filisha.PNG"
 mediums = "digital"
 title = "filisha"
+width = 750
+height = 1000
 
 [[artworks]]
 date = "feb 2018"
 image = "drawings/ashvin.png"
 mediums = "digital"
 title = "ashvin"
+width = 750
+height = 1000
 
 [[artworks]]
 date = "jun 2017"
 image = "drawings/iris.jpg"
 mediums = "pencil + ink"
 title = "iris"
+width = 788
+height = 1000
 
 [[artworks]]
 date = "may 2017"
 image = "drawings/prof_reiher.jpg"
 mediums = "pencil + ink"
 title = "prof. reiher"
+width = 792
+height = 1000
 
 [[artworks]]
 date = "may 2017"
 image = "drawings/katon.jpg"
 mediums = "pencil + ink"
 title = "katon"
+width = 791
+height = 1000
 
 [[artworks]]
 date = "may 2017"
 image = "drawings/anthony.jpg"
 mediums = "pencil + ink"
 title = "anthony"
+width = 780
+height = 1000
 
 [[artworks]]
 date = "dec 2016"
 image = "drawings/nishant.jpg"
 mediums = "pencil + ink"
 title = "nishant"
+width = 761
+height = 1000
 
 [[artworks]]
 date = "dec 2016"
 image = "drawings/adrian.jpg"
 mediums = "pencil + ink"
 title = "adrian"
+width = 676
+height = 1000
 
 [[artworks]]
 date = "may 2013"
 image = "drawings/ms_geers.jpg"
 mediums = "pencil + ink"
 title = "ms. geers"
+width = 728
+height = 1000
 
 [[artworks]]
 date = "may 2013"
 image = "drawings/mrs_moore.jpg"
 mediums = "pencil + ink"
 title = "mrs. moore"
+width = 798
+height = 1000
 
 [[artworks]]
 date = "may 2013"
 image = "drawings/mlle_hodin.jpg"
 mediums = "pencil + ink"
 title = "mlle. hodin"
+width = 727
+height = 1000
 
 [[artworks]]
 date = "jun 2012"
 image = "drawings/mrs_cohen.jpg"
 mediums = "pencil + ink"
 title = "mrs. cohen"
+width = 706
+height = 1000
 
 [[artworks]]
 date = "jun 2008"
 image = "drawings/mr_gill.jpg"
 mediums = "pencil + ink"
 title = "mr. gill"
+width = 674
+height = 1000
 
 [[artworks]]
 date = "jun 2007"
 image = "drawings/mr_findlay.jpg"
 mediums = "colored pencil + ink"
 title = "mr. findlay"
+width = 693
+height = 1000
