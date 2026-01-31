@@ -273,6 +273,10 @@
 	align-items: center;
 }
 
+.gallery-grid.gallery-hidden {
+	visibility: hidden;
+}
+
 /* Grid column configurations based on size */
 .gallery-grid[data-size-grid='50%'] {
 	grid-template-columns: repeat(8, 1fr);
