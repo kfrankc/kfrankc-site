@@ -3,267 +3,365 @@ name = "desert.webp"
 source = "dji"
 location = "valley of fire state park"
 camera = "dji mavic mini"
+width = 1924
+height = 1082
 
 [[gallery]]
 name = "bonfire.webp"
 source = "sony"
 location = "ucla"
 camera = "sony α5100"
+width = 3000
+height = 2000
 
 [[gallery]]
 name = "bunche.webp"
 source = "sony"
 location = "ucla"
 camera = "sony α5100"
+width = 2921
+height = 1947
 
 [[gallery]]
 name = "seattle.webp"
 source = "sony"
 location = "seattle"
 camera = "sony α5100"
+width = 3000
+height = 2000
 
 [[gallery]]
 name = "cherry-blossoms.webp"
 source = "sony"
 location = "university of washington"
 camera = "sony α5100"
+width = 3000
+height = 2000
 
 [[gallery]]
 name = "sunset.webp"
 source = "sony"
 location = "lake tahoe"
 camera = "sony α5100"
+width = 3000
+height = 2000
 
 [[gallery]]
 name = "shipwreck.webp"
 source = "sony"
 location = "vancouver"
 camera = "sony α5100"
+width = 2962
+height = 1975
 
 [[gallery]]
 name = "tahoe.webp"
 source = "sony"
 location = "lake tahoe"
 camera = "sony α5100"
+width = 3000
+height = 2000
 
 [[gallery]]
 name = "road.webp"
 source = "dji"
 location = "livermore hills"
 camera = "dji mavic mini"
+width = 1024
+height = 576
 
 [[gallery]]
 name = "lick-observatory.webp"
 source = "dji"
 location = "lick observatory"
 camera = "dji mavic mini"
+width = 1024
+height = 576
 
 [[gallery]]
 name = "salt-flats.webp"
 source = "dji"
 location = "bonneville salt flats"
 camera = "dji mavic mini"
+width = 1948
+height = 1096
 
 [[gallery]]
 name = "dusk.webp"
 source = "dji"
 location = "mt tampalpais"
 camera = "dji mavic mini"
+width = 2000
+height = 1125
 
 [[gallery]]
 name = "hwy-1.webp"
 source = "dji"
 location = "highway 1"
 camera = "dji mavic mini"
+width = 1024
+height = 576
 
 [[gallery]]
 name = "alviso.webp"
 source = "apple"
 location = "alviso salt ponds"
 camera = "iphone 12 pro"
+width = 1512
+height = 1512
 
 [[gallery]]
 name = "big-buddha.webp"
 source = "apple"
 location = "hong kong"
 camera = "iphone 12 pro"
+width = 1477
+height = 1477
 
 [[gallery]]
 name = "dome-home.webp"
 source = "dji"
 location = "san jose hills"
 camera = "dji mavic mini"
+width = 2000
+height = 1125
 
 [[gallery]]
 name = "dumbo.webp"
 source = "apple"
 location = "brooklyn"
 camera = "iphone 12 pro"
+width = 1512
+height = 2016
 
 [[gallery]]
 name = "hk.webp"
 source = "dji"
 location = "hong kong"
 camera = "dji osmo pocket 3"
+width = 720
+height = 720
 
 [[gallery]]
 name = "iit-bombay.webp"
 source = "apple"
 location = "iit bombay"
 camera = "iphone 12 pro"
+width = 720
+height = 720
 
 [[gallery]]
 name = "kauai.webp"
 source = "dji"
 location = "kauai"
 camera = "dji mavic mini"
+width = 2000
+height = 1125
 
 [[gallery]]
 name = "osaka-castle.webp"
 source = "apple"
 location = "osaka castle"
 camera = "iphone 12 pro"
+width = 1512
+height = 2016
 
 [[gallery]]
 name = "pnw.webp"
 source = "sony"
 location = "pnw"
 camera = "sony α5100"
+width = 1728
+height = 2304
 
 [[gallery]]
 name = "sf-sunset.webp"
 source = "apple"
 location = "lands end"
 camera = "iphone 12 pro"
+width = 1998
+height = 1498
 
 [[gallery]]
 name = "singapore.webp"
 source = "apple"
 location = "singapore"
 camera = "iphone 12 pro"
+width = 1052
+height = 1052
 
 [[gallery]]
 name = "taipei-101.webp"
 source = "dji"
 location = "taipei"
 camera = "dji osmo pocket 3"
+width = 803
+height = 803
 
 [[gallery]]
 name = "tokyo.webp"
 source = "dji"
 location = "tokyo"
-camera = "dji osmo pocker 3"
+camera = "dji osmo pocket 3"
+width = 864
+height = 864
 
 [[gallery]]
 name = "tulip-field.webp"
 source = "sony"
 location = "abbotsford"
 camera = "sony α5100"
+width = 2449
+height = 1633
 
 [[gallery]]
 name = "bridge.webp"
 source = "olympus"
 location = "banff"
 camera = "olympus stylus zoom 70"
+width = 519
+height = 519
 
 [[gallery]]
 name = "banff.webp"
 source = "olympus"
 location = "roger pass"
 camera = "olympus stylus zoom 70"
+width = 1038
+height = 1038
 
 [[gallery]]
 name = "dome.webp"
 source = "dji"
 location = "bryce canyon"
 camera = "dji mavic mini"
+width = 2000
+height = 1125
 
 [[gallery]]
 name = "bryce-canyon.webp"
 source = "apple"
 location = "bryce canyon"
 camera = "iphone 12 pro"
+width = 1512
+height = 2016
 
 [[gallery]]
 name = "venice-elevation.webp"
 source = "ricoh"
 location = "st mark's campanile"
 camera = "ricoh gr iiix"
+width = 1237
+height = 1856
 
 [[gallery]]
 name = "venice-canal.webp"
 source = "ricoh"
 location = "murano"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
 
 [[gallery]]
 name = "venice-gondola.webp"
 source = "ricoh"
 location = "venice"
 camera = "ricoh gr iiix"
+width = 1248
+height = 1874
 
 [[gallery]]
 name = "bellagio.webp"
 source = "ricoh"
 location = "lake como"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
 
 [[gallery]]
 name = "nz-1.webp"
 source = "dji"
 location = "tooth peaks"
 camera = "dji mavic mini"
+width = 4000
+height = 2250
 
 [[gallery]]
 name = "nz-2.webp"
 source = "dji"
 location = "lake pukaki"
 camera = "dji mavic mini"
+width = 4000
+height = 2250
 
 [[gallery]]
 name = "marshall-beach.webp"
 source = "apple"
 location = "marshall beach"
 camera = "iphone 12 pro"
+width = 3024
+height = 4032
 
 [[gallery]]
 name = "villa-carlotta.webp"
 source = "ricoh"
 location = "villa carlotta"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
 
 [[gallery]]
 name = "yosemite.webp"
 source = "ricoh"
 location = "yosemite"
 camera = "ricoh gr iiix"
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "yellowstone.webp"
 source = "ricoh"
 location = "yellowstone"
 camera = "ricoh gr iiix"
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "zhangjiajie-hotel.webp"
 source = "ricoh"
 location = "zhangjiajie"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
 
 [[gallery]]
 name = "72qilou.webp"
 source = "ricoh"
 location = "72 qilou"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
 
 [[gallery]]
 name = "temple-of-heaven.webp"
 source = "ricoh"
 location = "temple of heaven"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
 
 [[gallery]]
 name = "yiheyuan.webp"
 source = "ricoh"
 location = "summer palace"
 camera = "ricoh gr iiix"
+width = 1280
+height = 1920
+
+[[gallery]]
+name = "venice-boat.webp"
+source = "ricoh"
+location = "venice"
+camera = "ricoh gr iiix"
+width = 1248
+height = 1874

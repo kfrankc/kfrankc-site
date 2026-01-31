@@ -13,7 +13,7 @@
   <section class="gallery-grid" id="gallery-grid" data-size-grid="100%">
     {{ range $index, $image := .Site.Data.gallery.gallery }}
     <div class="gallery-item" data-index="{{ add $index 1 }}" data-source="{{ $image.source }}" data-location="{{ $image.location }}" data-camera="{{ $image.camera }}">
-      <img class="gallery-image" src="/gallery/{{ $image.name }}" alt="Gallery image {{ add $index 1 }}" loading="lazy">
+      <img class="gallery-image" src="/gallery/{{ $image.name }}" alt="Gallery image {{ add $index 1 }}" width="{{ $image.width }}" height="{{ $image.height }}" style="aspect-ratio: {{ $image.width }} / {{ $image.height }};">
     </div>
     {{ end }}
   </section>
