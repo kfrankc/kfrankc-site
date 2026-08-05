@@ -1,17 +1,18 @@
 # Site settings
 baseurl = "https://kfrankc.com"
+title = "Frank Chen"
 languageCode = "en-us"
 sectionPagesMenu = "main"
 googleAnalytics = "G-366849346"
 
 [params]
 	name = "Frank Chen"
-  title = "Frank Chen"
-	description = "PM @ Microsoft"
+	title = "Frank Chen | Creativity 🤝 Engineering"
+	description = "Product work on AI & personalization at Tubi. Previously Typeface, Twitter, & Microsoft. Drawing, photos, and writing"
 	email = "kfrankc@uw.edu"
 	author = "kfrankc"
 	copyrightname = "Frank Chen"
-  images = [""]
+	images = ["card.png"]
 
 [taxonomies]
   series = "series"

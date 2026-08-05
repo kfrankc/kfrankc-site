@@ -3,64 +3,64 @@ name = "desert.webp"
 source = "dji"
 location = "valley of fire state park"
 camera = "dji mavic mini"
-width = 1924
-height = 1082
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "bonfire.webp"
 source = "sony"
 location = "ucla"
 camera = "sony α5100"
-width = 3000
-height = 2000
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "bunche.webp"
 source = "sony"
 location = "ucla"
 camera = "sony α5100"
-width = 2921
-height = 1947
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "seattle.webp"
 source = "sony"
 location = "seattle"
 camera = "sony α5100"
-width = 3000
-height = 2000
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "cherry-blossoms.webp"
 source = "sony"
 location = "university of washington"
 camera = "sony α5100"
-width = 3000
-height = 2000
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "sunset.webp"
 source = "sony"
 location = "lake tahoe"
 camera = "sony α5100"
-width = 3000
-height = 2000
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "shipwreck.webp"
 source = "sony"
 location = "vancouver"
 camera = "sony α5100"
-width = 2962
-height = 1975
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "tahoe.webp"
 source = "sony"
 location = "lake tahoe"
 camera = "sony α5100"
-width = 3000
-height = 2000
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "road.webp"
@@ -83,16 +83,16 @@ name = "salt-flats.webp"
 source = "dji"
 location = "bonneville salt flats"
 camera = "dji mavic mini"
-width = 1948
-height = 1096
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "dusk.webp"
 source = "dji"
 location = "mt tampalpais"
 camera = "dji mavic mini"
-width = 2000
-height = 1125
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "hwy-1.webp"
@@ -123,16 +123,16 @@ name = "dome-home.webp"
 source = "dji"
 location = "san jose hills"
 camera = "dji mavic mini"
-width = 2000
-height = 1125
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "dumbo.webp"
 source = "apple"
 location = "brooklyn"
 camera = "iphone 12 pro"
-width = 1512
-height = 2016
+width = 1440
+height = 1920
 
 [[gallery]]
 name = "hk.webp"
@@ -155,32 +155,32 @@ name = "kauai.webp"
 source = "dji"
 location = "kauai"
 camera = "dji mavic mini"
-width = 2000
-height = 1125
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "osaka-castle.webp"
 source = "apple"
 location = "osaka castle"
 camera = "iphone 12 pro"
-width = 1512
-height = 2016
+width = 1440
+height = 1920
 
 [[gallery]]
 name = "pnw.webp"
 source = "sony"
 location = "pnw"
 camera = "sony α5100"
-width = 1728
-height = 2304
+width = 1440
+height = 1920
 
 [[gallery]]
 name = "sf-sunset.webp"
 source = "apple"
 location = "lands end"
 camera = "iphone 12 pro"
-width = 1998
-height = 1498
+width = 1920
+height = 1440
 
 [[gallery]]
 name = "singapore.webp"
@@ -211,8 +211,8 @@ name = "tulip-field.webp"
 source = "sony"
 location = "abbotsford"
 camera = "sony α5100"
-width = 2449
-height = 1633
+width = 1920
+height = 1280
 
 [[gallery]]
 name = "bridge.webp"
@@ -235,16 +235,16 @@ name = "dome.webp"
 source = "dji"
 location = "bryce canyon"
 camera = "dji mavic mini"
-width = 2000
-height = 1125
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "bryce-canyon.webp"
 source = "apple"
 location = "bryce canyon"
 camera = "iphone 12 pro"
-width = 1512
-height = 2016
+width = 1440
+height = 1920
 
 [[gallery]]
 name = "venice-elevation.webp"
@@ -283,24 +283,24 @@ name = "nz-1.webp"
 source = "dji"
 location = "tooth peaks"
 camera = "dji mavic mini"
-width = 4000
-height = 2250
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "nz-2.webp"
 source = "dji"
 location = "lake pukaki"
 camera = "dji mavic mini"
-width = 4000
-height = 2250
+width = 1920
+height = 1080
 
 [[gallery]]
 name = "marshall-beach.webp"
 source = "apple"
 location = "marshall beach"
 camera = "iphone 12 pro"
-width = 3024
-height = 4032
+width = 1440
+height = 1920
 
 [[gallery]]
 name = "villa-carlotta.webp"

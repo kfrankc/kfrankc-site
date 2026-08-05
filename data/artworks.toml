@@ -1,6 +1,6 @@
 [[artworks]]
 date = "jun 2023"
-image = "drawings/dome.png"
+image = "drawings/dome.webp"
 mediums = "digital"
 title = "dome house"
 width = 785
@@ -8,7 +8,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2023"
-image = "drawings/wedding-couple-2.png"
+image = "drawings/wedding-couple-2.webp"
 mediums = "digital"
 title = "friend's wedding"
 width = 1000
@@ -16,7 +16,7 @@ height = 1000
 
 [[artworks]]
 date = "jan 2023"
-image = "drawings/baby.PNG"
+image = "drawings/baby.webp"
 mediums = "digital"
 title = "baby's birthday"
 width = 1000
@@ -24,7 +24,7 @@ height = 1000
 
 [[artworks]]
 date = "dec 2022"
-image = "drawings/wedding-couple-1.JPG"
+image = "drawings/wedding-couple-1.webp"
 mediums = "digital"
 title = "friend's wedding"
 width = 1000
@@ -32,7 +32,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2022"
-image = "drawings/dad.jpg"
+image = "drawings/dad.webp"
 mediums = "digital"
 title = "happy father's day"
 width = 1000
@@ -40,7 +40,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2022"
-image = "drawings/bouldering-friend.jpg"
+image = "drawings/bouldering-friend.webp"
 mediums = "digital"
 title = "alexi"
 width = 1000
@@ -48,7 +48,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2022"
-image = "drawings/mom.jpg"
+image = "drawings/mom.webp"
 mediums = "digital"
 title = "happy mother's day"
 width = 1000
@@ -56,7 +56,7 @@ height = 1000
 
 [[artworks]]
 date = "nov 2021"
-image = "drawings/dune.PNG"
+image = "drawings/dune.webp"
 mediums = "digital"
 title = "frank herbert"
 width = 1000
@@ -64,7 +64,7 @@ height = 1000
 
 [[artworks]]
 date = "aug 2021"
-image = "drawings/banyan-tree.jpg"
+image = "drawings/banyan-tree.webp"
 mediums = "digital"
 title = "banyan tree"
 width = 1000
@@ -72,7 +72,7 @@ height = 777
 
 [[artworks]]
 date = "aug 2021"
-image = "drawings/tweet.PNG"
+image = "drawings/tweet.webp"
 mediums = "digital"
 title = "sending out a tweet"
 width = 1000
@@ -80,7 +80,7 @@ height = 1000
 
 [[artworks]]
 date = "jan 2021"
-image = "drawings/wfh2021.png"
+image = "drawings/wfh2021.webp"
 mediums = "digital"
 title = "wfh 2021"
 width = 1000
@@ -88,7 +88,7 @@ height = 1000
 
 [[artworks]]
 date = "dec 2020"
-image = "drawings/taylorswift-evermore.png"
+image = "drawings/taylorswift-evermore.webp"
 mediums = "digital"
 title = "taylor swift"
 width = 1000
@@ -96,7 +96,7 @@ height = 1000
 
 [[artworks]]
 date = "sep 2020"
-image = "drawings/mando-grogu.PNG"
+image = "drawings/mando-grogu.webp"
 mediums = "digital"
 title = "mando & grogu"
 width = 1000
@@ -104,7 +104,7 @@ height = 1000
 
 [[artworks]]
 date = "sep 2020"
-image = "drawings/rbg.PNG"
+image = "drawings/rbg.webp"
 mediums = "digital"
 title = "ruth bader ginsburg"
 width = 1000
@@ -112,7 +112,7 @@ height = 1000
 
 [[artworks]]
 date = "aug 2020"
-image = "drawings/tchalla.png"
+image = "drawings/tchalla.webp"
 mediums = "digital"
 title = "t'challa"
 width = 1000
@@ -120,7 +120,7 @@ height = 1000
 
 [[artworks]]
 date = "jul 2020"
-image = "drawings/jackma.png"
+image = "drawings/jackma.webp"
 mediums = "digital"
 title = "jack ma"
 width = 1000
@@ -128,7 +128,7 @@ height = 1000
 
 [[artworks]]
 date = "jul 2020"
-image = "drawings/satya.png"
+image = "drawings/satya.webp"
 mediums = "digital"
 title = "satya nadella"
 width = 1000
@@ -136,7 +136,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2020"
-image = "drawings/aoc.png"
+image = "drawings/aoc.webp"
 mediums = "digital"
 title = "alexandria ocasio-cortez"
 width = 1000
@@ -144,7 +144,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2020"
-image = "drawings/dad.png"
+image = "drawings/dad-2020.webp"
 mediums = "digital"
 title = "happy father's day!"
 width = 1000
@@ -152,7 +152,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2020"
-image = "drawings/brielarson.png"
+image = "drawings/brielarson.webp"
 mediums = "digital"
 title = "brie larson"
 width = 1000
@@ -160,7 +160,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2020"
-image = "drawings/wfh3.PNG"
+image = "drawings/wfh3.webp"
 mediums = "digital"
 title = "wfh 3/3"
 width = 1000
@@ -168,7 +168,7 @@ height = 1000
 
 [[artworks]]
 date = "apr 2020"
-image = "drawings/wfh2.PNG"
+image = "drawings/wfh2.webp"
 mediums = "digital"
 title = "wfh 2/3"
 width = 1000
@@ -176,7 +176,7 @@ height = 1000
 
 [[artworks]]
 date = "apr 2020"
-image = "drawings/wfh1.PNG"
+image = "drawings/wfh1.webp"
 mediums = "digital"
 title = "wfh 1/3"
 width = 1000
@@ -184,7 +184,7 @@ height = 1000
 
 [[artworks]]
 date = "apr 2020"
-image = "drawings/arbox.PNG"
+image = "drawings/arbox.webp"
 mediums = "digital"
 title = "augmented reality"
 width = 1000
@@ -192,7 +192,7 @@ height = 1000
 
 [[artworks]]
 date = "apr 2020"
-image = "drawings/vrmonster.PNG"
+image = "drawings/vrmonster.webp"
 mediums = "digital"
 title = "vr monster"
 width = 1000
@@ -200,7 +200,7 @@ height = 1000
 
 [[artworks]]
 date = "jan 2020"
-image = "drawings/2020.PNG"
+image = "drawings/2020.webp"
 mediums = "digital"
 title = "20/20 vision"
 width = 1000
@@ -208,7 +208,7 @@ height = 1000
 
 [[artworks]]
 date = "aug 2019"
-image = "drawings/kfrankc-mrw.PNG"
+image = "drawings/kfrankc-mrw.webp"
 mediums = "digital"
 title = "mixed reality"
 width = 1000
@@ -216,7 +216,7 @@ height = 1000
 
 [[artworks]]
 date = "jul 2019"
-image = "drawings/ludo.png"
+image = "drawings/ludo.webp"
 mediums = "digital"
 title = "ludo"
 width = 750
@@ -224,7 +224,7 @@ height = 1000
 
 [[artworks]]
 date = "jul 2019"
-image = "drawings/heather.png"
+image = "drawings/heather.webp"
 mediums = "digital"
 title = "heather"
 width = 750
@@ -232,7 +232,7 @@ height = 1000
 
 [[artworks]]
 date = "mar 2019"
-image = "drawings/steven.png"
+image = "drawings/steven.webp"
 mediums = "digital"
 title = "steven"
 width = 750
@@ -240,7 +240,7 @@ height = 1000
 
 [[artworks]]
 date = "mar 2019"
-image = "drawings/logic.png"
+image = "drawings/logic.webp"
 mediums = "digital"
 title = "logic"
 width = 1000
@@ -248,7 +248,7 @@ height = 1000
 
 [[artworks]]
 date = "mar 2019"
-image = "drawings/joyner.png"
+image = "drawings/joyner.webp"
 mediums = "digital"
 title = "joyner lucas"
 width = 1000
@@ -256,7 +256,7 @@ height = 1000
 
 [[artworks]]
 date = "mar 2019"
-image = "drawings/eminem.png"
+image = "drawings/eminem.webp"
 mediums = "digital"
 title = "eminem"
 width = 1000
@@ -264,7 +264,7 @@ height = 1000
 
 [[artworks]]
 date = "mar 2019"
-image = "drawings/leon.PNG"
+image = "drawings/leon.webp"
 mediums = "digital"
 title = "leon"
 width = 750
@@ -272,7 +272,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2018"
-image = "drawings/franos.PNG"
+image = "drawings/franos.webp"
 mediums = "digital"
 title = "franos"
 width = 1000
@@ -280,7 +280,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2018"
-image = "drawings/filisha.PNG"
+image = "drawings/filisha.webp"
 mediums = "digital"
 title = "filisha"
 width = 750
@@ -288,7 +288,7 @@ height = 1000
 
 [[artworks]]
 date = "feb 2018"
-image = "drawings/ashvin.png"
+image = "drawings/ashvin.webp"
 mediums = "digital"
 title = "ashvin"
 width = 750
@@ -296,7 +296,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2017"
-image = "drawings/iris.jpg"
+image = "drawings/iris.webp"
 mediums = "pencil + ink"
 title = "iris"
 width = 788
@@ -304,7 +304,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2017"
-image = "drawings/prof_reiher.jpg"
+image = "drawings/prof_reiher.webp"
 mediums = "pencil + ink"
 title = "prof. reiher"
 width = 792
@@ -312,7 +312,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2017"
-image = "drawings/katon.jpg"
+image = "drawings/katon.webp"
 mediums = "pencil + ink"
 title = "katon"
 width = 791
@@ -320,7 +320,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2017"
-image = "drawings/anthony.jpg"
+image = "drawings/anthony.webp"
 mediums = "pencil + ink"
 title = "anthony"
 width = 780
@@ -328,7 +328,7 @@ height = 1000
 
 [[artworks]]
 date = "dec 2016"
-image = "drawings/nishant.jpg"
+image = "drawings/nishant.webp"
 mediums = "pencil + ink"
 title = "nishant"
 width = 761
@@ -336,7 +336,7 @@ height = 1000
 
 [[artworks]]
 date = "dec 2016"
-image = "drawings/adrian.jpg"
+image = "drawings/adrian.webp"
 mediums = "pencil + ink"
 title = "adrian"
 width = 676
@@ -344,7 +344,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2013"
-image = "drawings/ms_geers.jpg"
+image = "drawings/ms_geers.webp"
 mediums = "pencil + ink"
 title = "ms. geers"
 width = 728
@@ -352,7 +352,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2013"
-image = "drawings/mrs_moore.jpg"
+image = "drawings/mrs_moore.webp"
 mediums = "pencil + ink"
 title = "mrs. moore"
 width = 798
@@ -360,7 +360,7 @@ height = 1000
 
 [[artworks]]
 date = "may 2013"
-image = "drawings/mlle_hodin.jpg"
+image = "drawings/mlle_hodin.webp"
 mediums = "pencil + ink"
 title = "mlle. hodin"
 width = 727
@@ -368,7 +368,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2012"
-image = "drawings/mrs_cohen.jpg"
+image = "drawings/mrs_cohen.webp"
 mediums = "pencil + ink"
 title = "mrs. cohen"
 width = 706
@@ -376,7 +376,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2008"
-image = "drawings/mr_gill.jpg"
+image = "drawings/mr_gill.webp"
 mediums = "pencil + ink"
 title = "mr. gill"
 width = 674
@@ -384,7 +384,7 @@ height = 1000
 
 [[artworks]]
 date = "jun 2007"
-image = "drawings/mr_findlay.jpg"
+image = "drawings/mr_findlay.webp"
 mediums = "colored pencil + ink"
 title = "mr. findlay"
 width = 693
