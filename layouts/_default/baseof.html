@@ -4,7 +4,7 @@
     {{ if eq .Type "home" }}
         {{- partial "home.html" . -}} 
     {{ end }}
-    <body>
+    <body{{ if or (eq .Section "gallery") (eq .Section "drawings") }} class="page-gallery"{{ end }}>
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}

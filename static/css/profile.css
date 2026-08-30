@@ -1,12 +1,12 @@
 /* Profile image container styles */
 .image-container {
-    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
+    padding-top: 1rem;
 }
 
 /* Profile wrapper - relatively positioned container for both images */
@@ -17,7 +17,7 @@
     max-width: 180px;
     aspect-ratio: 3 / 4;
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 2px;
 }
 
 .profile-wrapper::after {

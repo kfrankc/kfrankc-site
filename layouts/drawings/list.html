@@ -1,14 +1,5 @@
 {{ define "main" }}
 <div class="drawings-page">
-  <!-- Size filter options -->
-  <nav class="gallery-options">
-    <div class="size-buttons">
-      <button data-size="50%">small</button>
-      <button class="active" data-size="100%">medium</button>
-      <button data-size="150%">large</button>
-    </div>
-  </nav>
-
   <!-- Drawings grid -->
   <section class="gallery-grid gallery-hidden" id="drawings-grid" data-size-grid="100%">
     {{ range $index, $artwork := .Site.Data.artworks.artworks }}

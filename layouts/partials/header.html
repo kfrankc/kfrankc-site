@@ -1,4 +1,4 @@
-<section class="section pt-5">
+<section class="section site-nav">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
@@ -13,4 +13,13 @@
       </div>
     </div>
   </div>
+  {{ if or (eq .Section "gallery") (eq .Section "drawings") }}
+  <nav class="gallery-options">
+    <div class="size-buttons">
+      <button data-size="50%">small</button>
+      <button class="active" data-size="100%">medium</button>
+      <button data-size="150%">large</button>
+    </div>
+  </nav>
+  {{ end }}
 </section>
