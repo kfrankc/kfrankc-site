@@ -1,11 +1,11 @@
-<section class="section pt-5">
+<section class="section site-nav">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
         <h4 style="text-align:center"><a href="/">Frank Chen</a></h4>
         <h6 style="text-align:center">
           <a href="https://www.linkedin.com/in/kfrankc" title="linkedin">{{ partial "fontawesome.html" "linkedin" }}</a>&nbsp;
-          <a href="https://twitter.com/kfrchen" title="twitter">{{ partial "fontawesome.html" "twitter" }}</a>&nbsp;
+          <a href="https://www.instagram.com/bykfrankc" title="instagram">{{ partial "fontawesome.html" "instagram" }}</a>&nbsp;
           <a href="https://github.com/kfrankc" title="github">{{ partial "fontawesome.html" "github" }}</a>&nbsp;
           <a href="/drawings" title="drawings">{{ partial "fontawesome.html" "palette" }}</a>&nbsp;
           <a href="/gallery" title="gallery">{{ partial "fontawesome.html" "gallery" }}</a>
@@ -13,4 +13,13 @@
       </div>
     </div>
   </div>
+  {{ if or (eq .Section "gallery") (eq .Section "drawings") }}
+  <nav class="gallery-options">
+    <div class="size-buttons">
+      <button data-size="50%">small</button>
+      <button class="active" data-size="100%">medium</button>
+      <button data-size="150%">large</button>
+    </div>
+  </nav>
+  {{ end }}
 </section>

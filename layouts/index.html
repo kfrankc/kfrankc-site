@@ -1,12 +1,11 @@
 {{ define "main" }}
 <div class="image-container">
-  <!-- <div class="canvas" width="500" height="500" aria-label="Drag Me! 🖱️" data-balloon-pos="down">
-    <canvas class="canvas" width="500" height="500" id="canvas"></canvas>
-  </div> -->
   <div class="profile-wrapper">
-    <img src="/drawings/profile/frank-512x512.jpg" alt="Frank Chen">
-    <div class="profile-image">
-      <img src="/drawings/profile/variations/gaze_px0p0_py0p0_256.webp" alt="Frank Chen">
+    <div class="profile-square">
+      <img src="/drawings/profile/frank-512x512.jpg" alt="Frank Chen" width="512" height="512" decoding="async" fetchpriority="high">
+      <div class="profile-image">
+        <img src="/drawings/profile/variations/gaze_px0p0_py0p0_256.webp" alt="Frank Chen" width="256" height="256" decoding="async">
+      </div>
     </div>
   </div>
 </div>
@@ -19,7 +18,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 mx-auto">
           {{ range where .Pages "Section" "writing" }} 
-            {{ range .Pages }}
+            {{ range where .Pages "Params.homepage" "!=" false }}
               <a href="{{.Permalink}}">{{ .Title }}&nbsp;&nbsp;&nbsp;<span style="font-size: 12px; color: #A0A0A0">{{ .PublishDate.Format "Jan 2006" }}</span></a>
               <br>
             {{ end }}
